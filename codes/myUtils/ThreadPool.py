@@ -6,29 +6,6 @@ import Queue
 import sys
 import time
 import urllib
-class ThreadPool:
- def __init__( self, num_of_threads=10, timeout=1):
-  self.workQueue = Queue.Queue()
-  self.resultQueue = Queue.Queue()
-  self.threads = []
-  self.timeout = timeout
-  self.__createThreadPool( num_of_threads )
-
- def __createThreadPool( self, num_of_threads ):
-  for i in range( num_of_threads ):
-   thread = MyThread( self.workQueue, self.resultQueue, self.timeout )
-   self.threads.append(thread)
-
- def wait_for_complete(self):
-  #等待所有线程完成。
-  while len(self.threads):
-   thread = self.threads.pop()
-   #等待线程结束
-   if thread.isAlive():#判断线程是否还存活来决定是否调用join
-    thread.join()
-    
- def add_job( self, callable, *args, **kwargs ):
-  self.workQueue.put( (callable,args,kwargs) )
 
 class MyThread(threading.Thread):
  def __init__(self, workQueue, resultQueue,timeout, **kwargs):
@@ -54,6 +31,32 @@ class MyThread(threading.Thread):
    except :
     print(sys.exc_info())
     raise
+
+class ThreadPool:
+ def __init__( self, num_of_threads=10, timeout=1, Thread=MyThread):
+  self.workQueue = Queue.Queue()
+  self.resultQueue = Queue.Queue()
+  self.threads = []
+  self.timeout = timeout
+  self.Thread = MyThread
+  self.__createThreadPool( num_of_threads )
+
+ def __createThreadPool( self, num_of_threads ):
+  for i in range( num_of_threads ):
+   thread = self.Thread( self.workQueue, self.resultQueue, self.timeout )
+   self.threads.append(thread)
+
+ def wait_for_complete(self):
+  #等待所有线程完成。
+  while len(self.threads):
+   thread = self.threads.pop()
+   #等待线程结束
+   if thread.isAlive():#判断线程是否还存活来决定是否调用join
+    thread.join()
+    
+ def add_job( self, callable, *args, **kwargs ):
+  self.workQueue.put( (callable,args,kwargs) )
+
 
 def test_job(id, sleep = 0.001 ):
  html = ""

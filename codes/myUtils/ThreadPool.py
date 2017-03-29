@@ -32,13 +32,13 @@ class MyThread(threading.Thread):
     print(sys.exc_info())
     raise
 
-class ThreadPool:
+class ThreadPool(object):
  def __init__( self, num_of_threads=10, timeout=1, Thread=MyThread):
   self.workQueue = Queue.Queue()
   self.resultQueue = Queue.Queue()
   self.threads = []
   self.timeout = timeout
-  self.Thread = MyThread
+  self.Thread = Thread
   self.__createThreadPool( num_of_threads )
 
  def __createThreadPool( self, num_of_threads ):

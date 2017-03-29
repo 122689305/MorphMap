@@ -9,6 +9,7 @@ from ThreadPool import ThreadPool, MyThread
 from copy import deepcopy
 import urllib
 import re
+import Queue
 
 class WikiCrawler():
   regionRex = re.compile(r'(?s)<div id="content" class="mw-body" role="main">.*?</div>(?=\s*<div id="mw-navigation">)')
@@ -76,28 +77,24 @@ class WikiCrawler():
       self.save_page(cascadePage)
       return self.extract_links(cascadePage)
 
-class CrawlerThreadPool(ThreadPool):
-  def __init__(self, *args, **kwargs):
-    MyThread = CrawlerThread
-    super(CrawlerThreadPool, self).__init__(*args, **kwargs)
-
 class CrawlerThread(MyThread):
   def run(self):
     while True:
       try:
-        print("before get")
         callable, args, kwargs = self.workQueue.get(timeout=self.timeout)
-        print("before call")
         res = callable(*args, **kwargs)
-        print("before put")
-        self.workQueue.put((callable, res, {}))
-        print("new work get. size is "+self.workQueue.size())
+        for x in res:
+          self.workQueue.put((callable, [x], {}))
       except Queue.Empty:
-        print("Queue Empty | "+self.getName())
         break
       except :
         print(sys.exc_info())
         raise
+
+class CrawlerThreadPool(ThreadPool):
+  def __init__(self, *args, **kwargs):
+    kwargs['Thread']=CrawlerThread
+    super(CrawlerThreadPool, self).__init__(*args, **kwargs)
 
 class CascadePage():
   def __init__(self, page, cascadeEntityName):

@@ -16,31 +16,39 @@ class WikiCrawler():
   deepLevel = 3
   prefix = '/home/taoyuchao/MorphMap/output'
 
+  def __init__(self):
+    self.check_prefix()
+    
+  def check_prefix(self):
+    if (not os.path.exists(self.prefix)) and (not os.path.isfile(self.prefix)):
+      os.makedirs(self.prefix)
+
   def get_page(self, link):
-    html = ""
+    page = ""
     try:
       conn = urllib.urlopen(link)
       page = conn.read()
+      print('page len: '+str(len(page)))
     except:
       print(sys.exc_info())
     return page
 
-  def extract_links(eslf, cascadePage):
+  def extract_links(self, cascadePage):
     cascadeLinkArray = []
     page = cascadePage.page
-    pageRegionMatch = regionRex.search(page)
-    if pageRegion:
+    pageRegionMatch = self.regionRex.search(page)
+    if pageRegionMatch:
       pageRegion = pageRegionMatch.group()
     else:
       pageRegion = page
-    linkMatchIter = linkRex.finditer(pageRegion)
+    linkMatchIter =self. linkRex.finditer(pageRegion)
     for linkMatch in linkMatchIter:
       linkMatchGroupDict = linkMatch.groupdict()
-      link = linkMatchGroupDict('href')
-      entityName = linkMatchGroupDict('entity_name')
+      link = linkMatchGroupDict['href']
+      entityName = linkMatchGroupDict['entity_name']
       tmpCascadeLink = CascadeLink(link, cascadePage.cascadeEntityName)
-      tmpCascadeLink.cascadeEntityName.append(entityName)
-      cascadeLink_array.append(tmpCascadeLink)
+      tmpCascadeLink.cascadeEntityName.names.append(entityName)
+      cascadeLinkArray.append(tmpCascadeLink)
     return cascadeLinkArray
 
   def save_page(self, cascadePage):
@@ -54,13 +62,15 @@ class WikiCrawler():
       open(path, 'w').write(cascadePage.page)
 
   def isNeeded(self, cascadeLink):
-    if len(cascadeLink.cascadeEntityName) > self.deepLevel:
+    if len(cascadeLink.cascadeEntityName.names) > self.deepLevel:
       return False
     else:
       return True
 
   def run(self, cascadeLink):
-    if isNeeded(cascadeLink):
+    if self.isNeeded(cascadeLink):
+      for name in cascadeLink.cascadeEntityName.names:
+        print(name.decode('utf-8'))
       page = self.get_page(cascadeLink.link)
       cascadePage = CascadePage(page, cascadeLink.cascadeEntityName)
       self.save_page(cascadePage)
@@ -69,16 +79,21 @@ class WikiCrawler():
 class CrawlerThreadPool(ThreadPool):
   def __init__(self, *args, **kwargs):
     MyThread = CrawlerThread
-    ThreadPool.__init__(*args, **kwargs)
+    super(CrawlerThreadPool, self).__init__(*args, **kwargs)
 
 class CrawlerThread(MyThread):
   def run(self):
     while True:
       try:
+        print("before get")
         callable, args, kwargs = self.workQueue.get(timeout=self.timeout)
+        print("before call")
         res = callable(*args, **kwargs)
+        print("before put")
         self.workQueue.put((callable, res, {}))
+        print("new work get. size is "+self.workQueue.size())
       except Queue.Empty:
+        print("Queue Empty | "+self.getName())
         break
       except :
         print(sys.exc_info())
@@ -95,9 +110,21 @@ class CascadeLink():
     self.cascadeEntityName = deepcopy(cascadeEntityName)
 
 class CascadeEntityName():
-  def _init__(self, names):
+  def __init__(self, names):
     self.names = list(names)
+  
+  def __getitem__(self, index):
+    return self.names[index]
+
+  def __len__(self):
+    return len(self.names)
+
+def test():
+  wikiCrawler = WikiCrawler()
+  wikiCrawler.run(CascadeLink('https://zh.wikipedia.org/wiki/%E8%96%84%E7%86%99%E6%9D%A5',CascadeEntityName(['薄熙来'])))
 
 if __name__ == '__main__':
   wikiCrawler = WikiCrawler()
-  wikiCrawler.run(CascadeLink('https://zh.wikipedia.org/wiki/%E8%96%84%E7%86%99%E6%9D%A5',CascadeEntityName(['薄熙来']))
+  crawlerThreadPool = CrawlerThreadPool(14)
+  crawlerThreadPool.add_job(wikiCrawler.run, CascadeLink('https://zh.wikipedia.org/wiki/%E8%96%84%E7%86%99%E6%9D%A5',CascadeEntityName(['薄熙来'])))
+  crawlerThreadPool.wait_for_complete()

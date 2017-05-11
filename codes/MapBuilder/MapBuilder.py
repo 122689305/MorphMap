@@ -45,6 +45,7 @@ class MapBuilder:
     return (status, empty, data)
 
   def _fullQuery(self, name):
+    print(name)
     return self.fullQuery(name)[2]
 
   # return [w1, w2, ...]
@@ -58,7 +59,7 @@ class MapBuilder:
     def _buildMap(name):
       data = (name, self._fullQuery(name))
       for i in range(self.deep_level):
-        expand = lambda t: (t[0] ,list(map(expand, t[1]))) if isinstance(t[1], list) else (t[0], (t[1], self._fullQuery(t[1])))
+        expand = lambda t: (t[0] ,list(map(expand, t[1]))) if isinstance(t[1], list) else (t[0], expand(t[1])) if isinstance(t[1], tuple) else (t[0], (t[1], self._fullQuery(t[1])))
         data = expand(data)
       return data
     return self.cache(name, _buildMap)
@@ -78,6 +79,6 @@ class MapBuilder:
 
 if __name__ == '__main__':
   mapBuilder = MapBuilder()
-  mapBuilder.deep_level = 1
+  mapBuilder.deep_level = 2
   q = mapBuilder.buildMap('薄熙来')
   print(q)

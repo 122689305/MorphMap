@@ -36,6 +36,8 @@ class MapBuilder:
   # data: a list of tuples. each tuple is in the form of (property, value). values are splited from original value
   def fullQuery(self, name):
     (status, empty, data) = self.query(name)
+    if empty:
+      return (status, empty, [])
     flat = lambda L: sum(list(map(flat,L)),[]) if isinstance(L,list) else [L]
     data = map(lambda tup: [(tup[0], entity) for entity in self.entitiesOf(tup[1])], data)
     data = list(data)
@@ -77,5 +79,5 @@ class MapBuilder:
 if __name__ == '__main__':
   mapBuilder = MapBuilder()
   mapBuilder.deep_level = 1
-  q = mapBuilder.buildMap('张德江')
+  q = mapBuilder.buildMap('薄熙来')
   print(q)

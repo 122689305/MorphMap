@@ -52,7 +52,7 @@ class GraphMatcher:
     return graph
 
   def updatePairTable(self, element1, element2):
-    if self.element_pair.has_key(element1):
+    if element1 in self.element_pair:
       self.element_pair[element1].append(element2)
     else:
       self.element_pair[element1] = [element2]
@@ -73,17 +73,33 @@ class GraphMatcher:
           yield _node
     return _wideSearch([graph_node])
 
+  def findElementPairs(self, graph1, graph2):
+    self.element_pair = {}
+    gi1 = self.deepSearch(graph1)
+    for node1 in gi1:
+      gi2 = self.deepSearch(graph2)
+      for node2 in gi2:
+        if (self.isSimilar(node1, node2)):
+          self.updatePairTable(node1, node2)
+
+def testSearch(g):
+  lg = gm.deepSearch(g)
+  for node in list(lg):
+    print(node.name, node.level, node.nodetype, node.parent.name if node.parent else '')
+  lg = gm.wideSearch(g)
+#  for node in list(lg):
+
+def testFind(gm, g1, g2):
+  gm.findElementPairs(g1,g2)
+  print(len(gm.element_pair))
+
 if __name__ == '__main__':
   gm = GraphMatcher()
   mb = MapBuilder()
   mb.deep_level = 1 
-  t = mb.buildMap('张德江')
-  print(t)
-  g = gm.tuple2Graph(t)
-  lg = gm.deepSearch(g)
-  for node in list(lg):
-    print(node.name, node.level, node.nodetype, node.parent.name if node.parent else '')
-#  lg = gm.wideSearch(g)
-#  for node in list(lg):
-#    print(node.name)
-
+  t1 = mb.buildMap('薄熙来')
+  g1 = gm.tuple2Graph(t1)
+  t2 = mb.buildMap('李自成')
+  g2 = gm.tuple2Graph(t2)
+  #testSearh(g)
+  testFind(gm, g1, g2)

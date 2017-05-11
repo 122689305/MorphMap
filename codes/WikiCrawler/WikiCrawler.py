@@ -100,7 +100,7 @@ class WikiCrawler():
 
   def save_page(self, cascadePage):
     path = self.get_savePath(cascadePage.cascadeLink)
-    if path and (not os.path.exists(path)) and (not cascadePage.page):
+    if path and (not os.path.exists(path)) and cascadePage.page:
       open(path, 'w').write(cascadePage.page)
 
   def isPageSaved(self, cascadeLink):

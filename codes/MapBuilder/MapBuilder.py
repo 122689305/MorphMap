@@ -1,8 +1,12 @@
 # coding=utf-8
+import sys
+sys.path.append('../../')
 import pickle
 import subprocess
 import re
 import json
+from codes import jieba
+from codes.zhtools.langconv import *
 
 class MapBuilder:
   server_url = 'http://202.120.38.146:7998/data/sparql'
@@ -51,7 +55,13 @@ class MapBuilder:
   # return [w1, w2, ...]
   # word segmentation. split in to queryful names
   def entitiesOf(self, literal):
-    return re.split(r"[：\.\!\/_,$%^*(+\"\']+|[+——！，。？、~@#￥%……&*（）!\"#$%&\'()*+,-./:;<=>?@\[\\\]\^_`{|}~]+",literal)
+    literal =  Converter('zh-hans').convert(literal)
+    flat = lambda L: sum(list(map(flat,L)),[]) if isinstance(L,list) else [L] 
+    if literal:
+      sep = re.split(r"[：\.\!\/_,$%^*(+\"\']+|[+——！，。？、~@#￥%……&*（）!\"#$%&\'()*+,-./:;<=>?@\[\\\]\^_`{|}~\s]+",literal)
+      return flat(list(list(map(lambda x: list(jieba.cut_for_search(x)), sep)) + sep)) 
+    else:
+      return [literal]
 
   # return a json-like object
   # it defines a directed tree

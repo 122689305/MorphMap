@@ -31,15 +31,27 @@ class GraphMatcher:
     # each pair represents a match
     self.element_pair = {}
     self.chain_pair = {}
-    #self.model_cn = gensim.models.Word2Vec.load_word2vec_format(self.w2v_model_dir,binary=False)
+    self.model_cn = gensim.models.Word2Vec.load_word2vec_format(self.w2v_model_dir,binary=False)
 
   def isSimilar(self, element1, element2):
     # please update this accordding to the structure of the Element
     #return element1.name == element2.name
-    try:
-      return model_cn.wv.similarity(element1.name, element2.name) > self.wv_sim_thre
-    except Exception:
-      return element1.name == element2.name
+      def roundSimilar(element1, element2):
+        pool = []
+        for i in ['', '@@@']:
+          for j in ['', '@@@']:
+            name1 = element1.name + i
+            name2 = element2.name + j
+            try:
+              pool.append(model_cn.wv.similarity(element1.name, element2.name))
+            except Exception:
+              pass
+        return pool
+      pool = roundSimilar(element1, element2)
+      if pool:
+        return max(pool) > self.wv_sim_thre
+      else:
+        return element1.name == element2.name
 
   def getWordVector(self, name):
     try:
@@ -121,7 +133,8 @@ class GraphMatcher:
           f = lambda node1, node2, height: f(node1.parent, node2.parent, height+1) if self.isSimilar(node1.parent, node2.parent) else height
           self.updateChainTable(element1, element2, f(element1, element2, 0))
       return self.chain_pair
-    return self.cacheChainPairs(graph1, graph2, _findChainPairs)
+    self.chain_pair = self.cacheChainPairs(graph1, graph2, _findChainPairs)
+    return self.chain_pair
 
   def sortedChainPairs(self):
     flat = lambda L: sum(list(map(flat,L)),[]) if isinstance(L,list) else [L]
@@ -140,15 +153,12 @@ class GraphMatcher:
         node = element
         line = ''
         h = 0
-        tail_len = 0
         while node:
-          name = node.name 
+          name = '\v' + node.name if h == height else node.name
           line = ' --' + name + line if node.nodetype == self.Element.Nodetype.relation else '--> ' + name + line
-          if h == height: tail_len = len(line)
           node = node.parent
           h += 1
-        twoline = line[:-tail_len] + '\n' + ' '*len(line[:-tail_len]) + line[-tail_len:]
-        print(twoline)
+        print(line)
       print()
            
 
@@ -181,14 +191,14 @@ def testFindChain(gm, g1, g2):
   gm.findChainPairs(g1, g2)
   print(len(gm.chain_pair))
   gm.sortedChainPairs()
-  gm.printSortedChainPairs()
+  gm.printSortedChainPairs(1000)
   #print(std[0] if std else '')
 
 
 if __name__ == '__main__':
   gm = GraphMatcher()
   mb = MapBuilder()
-  mb.deep_level = 1
+  mb.deep_level = 2 
   t1 = mb.buildMap('薄熙来')
   g1 = gm.tuple2Graph(t1)
   t2 = mb.buildMap('李自成')

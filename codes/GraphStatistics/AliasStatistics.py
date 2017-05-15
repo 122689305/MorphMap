@@ -5,7 +5,7 @@ import pickle
 import time
 class AliasStatistics():
   source_path = '../../../data/zhwiki-20161201-pages-articles-multistream.xml'
-  cache_paths = {'entity_alias':'../cache/statistics/alias/entity_alias.pkl', 'alias_entity':'../cache/statistics/alias/alias_alias.pkl', 'entity_alias_meta':'../../output/statistics/alias/entity_alias_meta.pkl'}
+  cache_paths = {'entity_alias':'../cache/statistics/alias/entity_alias.pkl', 'alias_entity':'../cache/statistics/alias/alias_entity.pkl', 'entity_alias_meta':'../../output/statistics/alias/entity_alias_meta.pkl'}
 
   entity_link_re = re.compile(r'\[\[(.*?)\]\]')
   entity_alias_re = re.compile(r'^(?<!#)s?:?(.*?)(?:#.*(?=\|))?\|(.*)')
@@ -152,7 +152,25 @@ class AliasStatistics():
 
     self.entity_alias_meta = {'tot_entity':tot_entity,'tot_alias':tot_alias,'tot_alias_cnt':tot_alias_cnt,'ave_alias':ave_alias,'std_alias':std_alias,'ave_alias_cnt':ave_alias_cnt,'std_alias_cnt':std_alias_cnt,'ave_entity_ave_alias_cnt':ave_entity_ave_alias_cnt,'std_entity_ave_alias_cnt':std_entity_ave_alias_cnt,'ave_entity_std_alias_cnt':ave_entity_std_alias_cnt,'std_entity_std_alias_cnt':std_entity_std_alias_cnt}
     return self.entity_alias_meta
-    
+
+  # entity_alias to alias_entity
+  def ea2ae(self):
+    def _ea2ae():
+      for entity, alias_cnt__list in self.entity_alias_pair.items():
+        for alias,cnt in self.filterOutCommonAlias(alias_cnt__list).items():
+          if not alias in self.alias_entity_pair:
+            self.alias_entity_pair[alias] = [entity]
+          else:
+            self.alias_entity_pair[alias].append(entity)
+      return self.alias_entity_pair
+    self.alias_entity_pair = self.cache(_ea2ae, self.cache_paths['alias_entity'])
+    return self.alias_entity_pair
+
+  # Todo
+  # filter out some common alias, like '谁'
+  def filterOutCommonAlias(self, alias_cnt__list):
+    return alias_cnt__list
+ 
 def test1():
   alias_statistics = AliasStatistics()
   alias_statistics.clearAllCache()
@@ -172,5 +190,13 @@ def test3():
   for k,v in alias_statistics.entity_alias_meta.items():
     print('{0}:{1}'.format(k,v))
 
+def test4():
+  alias_statistics = AliasStatistics()
+  alias_statistics.count()
+  alias_statistics.ea2ae()
+  its = alias_statistics.alias_entity_pair.items().__iter__()
+  for i in range(50):
+    print(its.__next__())
+
 if __name__ == '__main__':
-  test3() 
+  test4() 

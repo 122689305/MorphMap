@@ -9,7 +9,7 @@ class AliasStatistics():
 
   entity_link_re = re.compile(r'\[\[(.*?)\]\]')
   entity_alias_re = re.compile(r'^(?<!#)s?:?(.*?)(?:#.*(?=\|))?\|(.*)')
-  filter_no_re = re.compile(r'(?:^s?:?(?:Category|Image|File)|^#).*')
+  filter_no_re = re.compile(r'(?:^s?:?(?:Category|Image|File|User|Portal|Wikipedia|Help|WP)|^#).*', re.IGNORECASE)
 
   entity_alias_pair = {}  #{entity1: {alias1:count1, alias2:count2}, entity2}
   alias_entity_pair = {}  #{alias1: [entity1, entity2], alias2}

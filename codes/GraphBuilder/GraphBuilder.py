@@ -23,7 +23,7 @@ class GraphBuilder:
   cache_dir = '../cache'
   deep_level = 1
   relations = {'sub_entity':'GraphBuilder:sub_entity'}
-  stat_data = [(a_sts.count(), a_sts.ea2ae()) for a_sts in [AliasStatistics()]][0][1]
+#  stat_data = [(a_sts.count(), a_sts.ea2ae()) for a_sts in [AliasStatistics()]][0][1]
 
   def __init__(self, root_entity_name):
     self.root = Element(name=root_entity_name, children=[], parent=None, level=0, element_type=Element.ElementType.entity)
@@ -72,7 +72,7 @@ class GraphBuilder:
     if literal:
       #sep = re.split(r"[：\.\!\/_,$%^*(+\"\']+|[+——！，。？、~@#￥%……&*（）!\"#$%&\'()*+,-./:;<=>?@\[\\\]\^_`{|}~\s]+",literal)
       #return flat(list(list(map(lambda x: list(jieba.cut(x)), sep)) + sep)) 
-      e_list = list(jieba.cut(literal))
+#      e_list = list(jieba.cut(literal))
 # debug
       e_list = re.split(r"\s+",literal)
 # /debug
@@ -107,10 +107,10 @@ class GraphBuilder:
     # redirects should be detected in GraphMatcher
     comb = lambda e_list: [ [e_list[0]] + l for l in comb(e_list[1:])] + comb(e_list[1:]) if len(e_list) > 1 else [ [e_list[0]], [] ]
     join_comb = lambda e_list_list: [''.join(e_list) for e_list in e_list_list]
-    alias_entity = self.stat_data
-    a2e = lambda e: alias_entity[e] if e in alias_entity else []
+#    alias_entity = self.stat_data
+#    a2e = lambda e: alias_entity[e] if e in alias_entity else []
     sub_e_list = noEm(join_comb(comb(explode(ex))))
-    sub_e_list += flat(list(map(a2e, sub_e_list)))
+#    sub_e_list += flat(list(map(a2e, sub_e_list)))
     sub_e_list = noEm(noEx(sub_e_list))
     print(sub_e_list)
     

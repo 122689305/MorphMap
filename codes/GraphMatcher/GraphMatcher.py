@@ -2,30 +2,16 @@
 import sys
 sys.path.append('../../')
 from codes.MapBuilder.MapBuilder import MapBuilder
+from codes.Element import Element
 from functools import partial
 import pickle
 import gensim
-
-def enum(**enums):
-  return type('Enum', (), enums)
 
 class GraphMatcher:
 
   w2v_model_dir = '/home/bill/cdminer/ijcai/corpus_data/w2v/chineseembedding_0207_toload.txt'
   cache_dir = '../cache'
   wv_sim_thre = 0.7
-
-  class Element:
-    def __init__(self, name, children, parent=None, level=None, nodetype=None, wv=None):
-      self.name = name
-      self.children = children
-      self.parent = parent
-      self.level = level
-      self.nodetype = nodetype
-      self.wv = wv
-#    def __str__(self):
-#      return "{{'name':{0}, 'parent':{1}, 'children':{2}}}".format(self.name, self.parent, ''.join(map(lambda x:x.__str__(), self.children)) if isinstance(self.children, list) else '')
-    Nodetype = enum(entity='entity', relation='relation')
 
   def __init__(self):
     # each pair represents a match
@@ -60,9 +46,9 @@ class GraphMatcher:
       return None
 
   def tuple2Graph(self, tuple_map):
-    #f = lambda x_L, p:(self.Element(x_L[0], x_L[1], p), map(partial(f, p=x_L[0]), x_L[1]) if isinstance(x_L[1], list) else self.Element(x_L[1])) 
+    #f = lambda x_L, p:(Element(x_L[0], x_L[1], p), map(partial(f, p=x_L[0]), x_L[1]) if isinstance(x_L[1], list) else Element(x_L[1])) 
     # changed to list
-    f = lambda L: self.Element(L[0], list(map(f, L[1])) if isinstance(L[1], list) else [f(L[1])] if isinstance(L[1], tuple) else [self.Element(L[1], [])] )  
+    f = lambda L: Element(L[0], list(map(f, L[1])) if isinstance(L[1], list) else [f(L[1])] if isinstance(L[1], tuple) else [Element(L[1], [])] )  
     graph = f(tuple_map)
     def setParent(root):
       def _setParent(node, parent):
@@ -75,7 +61,7 @@ class GraphMatcher:
     def setLevelAndNodeType(root):
       def _setLevelAndNodeType(node, level):
         node.level = level
-        node.nodetype = self.Element.Nodetype.entity if level % 2 == 0 else self.Element.Nodetype.relation
+        node.element_type = Element.ElementType.entity if level % 2 == 0 else Element.ElementType.relation
         if node.children:
           for _node in node.children:
             _setLevelAndNodeType(_node, level+1)
@@ -155,7 +141,7 @@ class GraphMatcher:
         h = 0
         while node:
           name = '\v' + node.name if h == height else node.name
-          line = ' --' + name + line if node.nodetype == self.Element.Nodetype.relation else '--> ' + name + line
+          line = ' --' + name + line if node.element_type == Element.ElementType.relation else '--> ' + name + line
           node = node.parent
           h += 1
         print(line)
@@ -179,7 +165,7 @@ class GraphMatcher:
 def testSearch(g):
   lg = gm.deepSearch(g)
   for node in list(lg):
-    print(node.name, node.level, node.nodetype, node.parent.name if node.parent else '')
+    print(node.name, node.level, node.element_type, node.parent.name if node.parent else '')
   lg = gm.wideSearch(g)
 #  for node in list(lg):
 

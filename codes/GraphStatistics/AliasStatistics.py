@@ -75,14 +75,18 @@ class AliasStatistics():
 
   def cache(self, func, filename):
     import os
+    time_start = time.time()
     existed = os.path.isfile(filename)
     if existed:
+      print('loading form {0}'.format(filename))
       cached = open(filename, 'rb')
-      return pickle.load(cached)
+      data = pickle.load(cached)
     else:
+      print('loading by computing')
       data = func()
       pickle.dump(data, open(filename, 'wb'))
-      return data
+    print('loading finished :{0}s'.format(time.time()-time_start))
+    return data
 
   def clearAllCache(self):
     for cache_path in self.cache_paths.values():

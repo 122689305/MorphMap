@@ -7,7 +7,7 @@ class Element:
 
   def __init__(self, name='', children=[], parent=None, level=None, element_type=None, wv=None):
     self.name = name
-    self.children = children
+    self.children = [] if children == [] else children
     self.parent = parent
     self.level = level
     self.element_type = element_type
@@ -26,6 +26,12 @@ class Element:
 
   def __str__(self):
     return self._str_('', self) 
+
+  @classmethod
+  def concat(cls, element1, element2):
+    element1.children.append(element2)
+    element2.parent = element1
+    element2.level = element1.level+1
 
   ElementType = enum(entity='entity', relation='relation')
 

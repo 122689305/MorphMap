@@ -1,10 +1,12 @@
 # coding=utf-8
 import sys
 sys.path.append('../../')
+import os
 import pickle
 import subprocess
 import re
 import json
+from functools import partial
 from codes import jieba
 from codes.Element import Element
 from codes.zhtools.langconv import *
@@ -20,8 +22,7 @@ class Element:
 
 class GraphBuilder:
   server_url = 'http://202.120.38.146:9600/data/sparql'
-  cache_dir = '../cache'
-  deep_level = 1
+  cache_dir = '../cache/entity'
   relations = {'sub_entity':'GraphBuilder:sub_entity'}
 #  stat_data = [(a_sts.count(), a_sts.ea2ae()) for a_sts in [AliasStatistics()]][0][1]
   stat_data = AliasStatistics().ea2ae()
@@ -32,7 +33,17 @@ class GraphBuilder:
   def __str__(self):
     return self.root.__str__()
 
+  # Todo
+  def getGraph(self):
+    deep_level = 2
+    def _getGraph():
+      for i in range(deep_level):
+        self.expandGraph(deep_level)
+      return self.root
+    self.root = self.cache(os.path.join(self.cache_dir, self.root.name), _getGraph) 
+
   def expandGraphFromOneElementWithMaxDeeplevel(self, e, deep_level):
+    print('here')
     max_level = e.level + deep_level*2
     def _expand(e):
       if e.children == []:
@@ -42,6 +53,7 @@ class GraphBuilder:
           if sub_e.level < max_level and sub_e.level > e.level:
             _expand(sub_e)
     _expand(e)
+    return e
 
 
   def expandGraphFromOneElement(self, e):
@@ -53,15 +65,18 @@ class GraphBuilder:
           if sub_e.level > e.level:
             _expand(sub_e)
     _expand(e)
+    return e
 
   def expandGraph(self, deep_level = None):
     if deep_level:
       self.expandGraphFromOneElementWithMaxDeeplevel(self.root, deep_level)
     else:
       self.expandGraphFromOneElement(self.root)
-
+    return self.root
+    
   def encodeForQuery(self, name):
     name = name.replace(' ','_')
+    return name
 
   # return (status,data)
   # status: 0 or other
@@ -159,15 +174,14 @@ class GraphBuilder:
     return data
 
   # cache
-  def cache(self, name, func):
+  def cache(self, filename, func, *args, **keywords):
     import os
-    filename = os.path.join(self.cache_dir, name)
     existed = os.path.isfile(filename)
     if existed:
       cached = open(filename, 'rb')
       return pickle.load(cached)
     else:
-      data = func(name)
+      data = func(*args, **keywords)
       pickle.dump(data, open(filename, 'wb'))
       return data
 
@@ -182,5 +196,13 @@ def test2():
   mb.expandGraph()
   print(mb)
 
+def test3():
+  mb = GraphBuilder('薄熙来')
+  mb.getGraph() 
+
+def test4():
+  mb = GraphBuilder('李自成')
+  mb.getGraph() 
+
 if __name__ == '__main__':
-  test2()
+  test4()

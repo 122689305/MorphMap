@@ -180,8 +180,7 @@ def testFindChain(gm, g1, g2):
   gm.printSortedChainPairs(1000)
   #print(std[0] if std else '')
 
-
-if __name__ == '__main__':
+def test1():
   gm = GraphMatcher()
   mb = MapBuilder()
   mb.deep_level = 2 
@@ -192,3 +191,12 @@ if __name__ == '__main__':
   #testSearh(g)
   #testFindEle(gm, g1, g2)
   testFindChain(gm ,g1, g2)
+
+def test2():
+  gm = GraphMatcher()
+  gb1 = GraphBuilder('薄熙来')
+  gb2 = GraphBuilder('李自成')
+  testFindChain(gm, gb1, gb2)
+
+if __name__ == '__main__':
+  test2()

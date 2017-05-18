@@ -32,17 +32,33 @@ class GraphBuilder:
   def __str__(self):
     return self.root.__str__()
 
+  def expandGraphFromOneElementWithMaxDeeplevel(self, e, deep_level):
+    max_level = e.level + deep_level*2
+    def _expand(e):
+      if e.children == []:
+        self.doElementOneHop(e)
+      else:
+        for sub_e in e.children:
+          if sub_e.level < max_level and sub_e.level > e.level:
+            _expand(sub_e)
+    _expand(e)
+
+
   def expandGraphFromOneElement(self, e):
     def _expand(e):
       if e.children == []:
-        doElementOneHop(e)
+        self.doElementOneHop(e)
       else:
         for sub_e in e.children:
-          _expand(sub_e)
-    _expandAll(e)
+          if sub_e.level > e.level:
+            _expand(sub_e)
+    _expand(e)
 
-  def expandGraph(self):
-    self.expandGraphFromOneElement(self.root)
+  def expandGraph(self, deep_level = None):
+    if deep_level:
+      self.expandGraphFromOneElementWithMaxDeeplevel(self.root, deep_level)
+    else:
+      self.expandGraphFromOneElement(self.root)
 
   # return (status,data)
   # status: 0 or other
@@ -68,12 +84,17 @@ class GraphBuilder:
   # return [w1, w2, ...]
   # word segmentation. split in to queryful names
   def entitiesOf(self, literal):
+    print(literal)
     literal =  Converter('zh-hans').convert(literal)
     flat = lambda L: sum(list(map(flat,L)),[]) if isinstance(L,list) else [L] 
     if literal:
       #sep = re.split(r"[：\.\!\/_,$%^*(+\"\']+|[+——！，。？、~@#￥%……&*（）!\"#$%&\'()*+,-./:;<=>?@\[\\\]\^_`{|}~\s]+",literal)
       #return flat(list(list(map(lambda x: list(jieba.cut(x)), sep)) + sep)) 
-      e_list = list(jieba.cut(literal))
+
+      sep = re.split(r"[：\.\!\/_,$%^*(+\"\']+|[+——！，。？、~@#￥%……&*（）!\"#$%&\'()*+,-./:;<=>?@\[\\\]\^_`{|}~\s]+",literal)
+      e_list = list(map(lambda x: list(jieba.cut(x)), sep)) 
+
+      #e_list = list(jieba.cut(literal))
 # debug
 #      e_list = re.split(r"\s+",literal)
 # /debug
@@ -84,7 +105,8 @@ class GraphBuilder:
 
   def doElementOneHop(self, element_ex):
     el_x = element_ex
-    el_x.children = self.tup2graph(self.getOneHop(el_x.name), el_x.level).children
+    if not el_x.children:
+      el_x.children = self.tup2graph(self.getOneHop(el_x.name), el_x.level).children
 
   def tup2graph(self, tup, init_level):
     def _tup2graph(tup, init_level):
@@ -114,17 +136,22 @@ class GraphBuilder:
     noInvalidSubE = lambda hopped_e_list: list(filter(lambda hopped_e: len(hopped_e[1]) != 0, hopped_e_list)) 
     explode = lambda e: self.entitiesOf(e)
     # redirects should be detected in GraphMatcher
-    comb = lambda e_list: [ [e_list[0]] + l for l in comb(e_list[1:])] + comb(e_list[1:]) if len(e_list) > 1 else [ [e_list[0]], [] ]
+    comb = lambda e_list: [ [e_list[0]] + l for l in comb(e_list[1:])] + comb(e_list[1:]) if len(e_list) > 1 else [ [e_list[0]], [] ] if len(e_list) == 1 else [[]]
     join_comb = lambda e_list_list: [''.join(e_list) for e_list in e_list_list]
     alias_entity = self.stat_data
-    a2e = lambda e: alias_entity[e] if e in alias_entity else []
-    sub_e_list = noEm(join_comb(comb(explode(ex))))
+#    a2e = lambda e: alias_entity[e] if e in alias_entity else []
+# debug
+    a2e = lambda e: alias_entity[e][:5] if e in alias_entity else []
+# /debug
+    sub_e_list = noEm(flat([join_comb(comb(exploded_ex)) for exploded_ex in explode(ex)]))
     sub_e_list += flat(list(map(a2e, sub_e_list)))
     sub_e_list = noEm(noEx(sub_e_list))
+    print(sub_e_list)
     
     hopped_sub_e_list = noInvalidSubE([(sub_e, self.query(sub_e)) for sub_e in sub_e_list])
     all_hopped_ex_list = self.query(ex) + [(self.relations['sub_entity'], hopped_sub_e) for hopped_sub_e in hopped_sub_e_list]
-    return (ex, all_hopped_ex_list)
+    data = (ex, all_hopped_ex_list)
+    return data
 
   # cache
   def cache(self, name, func):
@@ -142,12 +169,13 @@ class GraphBuilder:
 def test1():
   mb = GraphBuilder('薄熙来')
   mb.doElementOneHop(mb.root)
-  print(mb.root)
+  print(mb)
 
 def test2():
   mb = GraphBuilder('薄熙来')
   mb.expandGraph()
+  mb.expandGraph()
   print(mb)
 
 if __name__ == '__main__':
-  test1()
+  test2()

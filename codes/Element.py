@@ -5,6 +5,8 @@ def enum(**enums):
 
 class Element:
 
+  entity_dict={}
+
   def __init__(self, name='', children=[], parent=None, level=None, element_type=None, wv=None):
     self.name = name
     self.children = [] if children == [] else children
@@ -13,12 +15,19 @@ class Element:
     self.element_type = element_type
     self.wv = wv
 
+    if element_type == Element.ElementType.entity:
+      if not name in Element.entity_dict:
+        Element.entity_dict[name] = self
+      else:
+        self.chilren = Element.entity_dict[name].children
+
   def _str_(self, prefix, e):
     s = ''
     prefix += ('--' if e.element_type == Element.ElementType.relation else '-->') + e.name
     if e.children:
       for sub_e in e.children:
-        s += self._str_(prefix, sub_e)
+        if sub_e.level > e.level:
+          s += self._str_(prefix, sub_e)
     else:
       s = prefix+'\n'
     return s
@@ -34,4 +43,3 @@ class Element:
     element2.level = element1.level+1
 
   ElementType = enum(entity='entity', relation='relation')
-

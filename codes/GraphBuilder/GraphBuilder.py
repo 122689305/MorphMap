@@ -60,6 +60,9 @@ class GraphBuilder:
     else:
       self.expandGraphFromOneElement(self.root)
 
+  def encodeForQuery(self, name):
+    name = name.replace(' ','_')
+
   # return (status,data)
   # status: 0 or other
   # data: json-like object
@@ -72,6 +75,7 @@ class GraphBuilder:
   # empty: Ture if the content of data is empty
   # data: a list of tuples. each tuple is in the form of (property, value)
   def query(self, name):
+    name = self.encodeForQuery(name)
     (status, data) = self.rawQuery('http://zh.dbpedia.org/resource/'+name)
     if (status == 0):
       jo = json.loads(data)
@@ -136,7 +140,8 @@ class GraphBuilder:
     noInvalidSubE = lambda hopped_e_list: list(filter(lambda hopped_e: len(hopped_e[1]) != 0, hopped_e_list)) 
     explode = lambda e: self.entitiesOf(e)
     # redirects should be detected in GraphMatcher
-    comb = lambda e_list: [ [e_list[0]] + l for l in comb(e_list[1:])] + comb(e_list[1:]) if len(e_list) > 1 else [ [e_list[0]], [] ] if len(e_list) == 1 else [[]]
+    #comb = lambda e_list: [ [e_list[0]] + l for l in comb(e_list[1:])] + comb(e_list[1:]) if len(e_list) > 1 else [ [e_list[0]], [] ] if len(e_list) == 1 else [[]]
+    comb = lambda e_list: [ e_list[i:j] for i in range(len(e_list)) for j in range(i+1,len(e_list)+1) ]
     join_comb = lambda e_list_list: [''.join(e_list) for e_list in e_list_list]
     alias_entity = self.stat_data
 #    a2e = lambda e: alias_entity[e] if e in alias_entity else []

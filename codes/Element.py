@@ -19,7 +19,7 @@ class Element:
       if not name in Element.entity_dict:
         Element.entity_dict[name] = self
       else:
-        self.chilren = Element.entity_dict[name].children
+        self.children = Element.entity_dict[name].children
 
   def _str_(self, prefix, e):
     s = ''

@@ -25,7 +25,7 @@ class GraphBuilder:
   cache_dir = '../cache/entity'
   relations = {'sub_entity':'GraphBuilder:sub_entity'}
 #  stat_data = [(a_sts.count(), a_sts.ea2ae()) for a_sts in [AliasStatistics()]][0][1]
-#  stat_data = AliasStatistics().ea2ae()
+  stat_data = AliasStatistics().ea2ae()
 
   def __init__(self, root_entity_name):
     self.root = Element(name=root_entity_name, children=[], parent=None, level=0, element_type=Element.ElementType.entity)
@@ -44,7 +44,6 @@ class GraphBuilder:
     return self.root
 
   def expandGraphFromOneElementWithMaxDeeplevel(self, e, deep_level):
-    print('here')
     max_level = e.level + deep_level*2
     def _expand(e):
       if e.children == []:
@@ -153,7 +152,7 @@ class GraphBuilder:
   
     noEm = lambda e_list: list(filter(lambda e: e != '', e_list))
     noEx = lambda e_list: list(filter(lambda e: e != ex, e_list))
-    noInvalidSubE = lambda hopped_e_list: list(filter(lambda hopped_e: len(hopped_e[1]) != 0, hopped_e_list)) 
+    noInvalidSubE = lambda hopped_e_list: list(filter(lambda hopped_e: len(hopped_e[1]) != 0 if isinstance(hopped_e, tuple) else True, hopped_e_list)) 
     explode = lambda e: self.entitiesOf(e)
     # redirects should be detected in GraphMatcher
     #comb = lambda e_list: [ [e_list[0]] + l for l in comb(e_list[1:])] + comb(e_list[1:]) if len(e_list) > 1 else [ [e_list[0]], [] ] if len(e_list) == 1 else [[]]
@@ -169,7 +168,7 @@ class GraphBuilder:
     sub_e_list = noEm(noEx(sub_e_list))
     print(sub_e_list)
     
-    hopped_sub_e_list = noInvalidSubE([(sub_e, self.query(sub_e)) for sub_e in sub_e_list])
+    hopped_sub_e_list = noInvalidSubE([(sub_e, self.query(sub_e)) if not sub_e in Element.entity_dict.keys() else sub_e for sub_e in sub_e_list])
     all_hopped_ex_list = self.query(ex) + [(self.relations['sub_entity'], hopped_sub_e) for hopped_sub_e in hopped_sub_e_list]
     data = (ex, all_hopped_ex_list)
     return data
@@ -205,5 +204,16 @@ def test4():
   mb = GraphBuilder('李自成')
   print(mb.getGraph())
 
+def test5():
+  mb = GraphBuilder('薄熙来')
+  mb.doElementOneHop(mb.root)
+  for e in mb.root.children:
+    if e.name == '姓名':
+      print(e.children[0].children)
+      mb.doElementOneHop(e.children[0])
+  print(Element.entity_dict['薄熙来'].children)
+  #print(mb)
+
 if __name__ == '__main__':
   test3()
+  test4()

@@ -10,3 +10,9 @@ def cache(filename, func, *args, **keywords):
 		pickle.dump(data, open(filename, 'wb'))
 		return data
 
+def clearCache(filename):
+	import os
+	existed = os.path.isfile(filename)
+	if existed:
+		os.remove(filename)
+

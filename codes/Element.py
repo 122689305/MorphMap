@@ -23,7 +23,7 @@ class Element:
 
   def _str_(self, prefix, e):
     s = ''
-    prefix += ('--' if e.element_type == Element.ElementType.relation else '-->') + e.name + e.level
+    prefix += ('--' if e.element_type == Element.ElementType.relation else '-->') + e.name + str(e.level)
     if e.children:
       for sub_e in e.children:
         if sub_e.level > e.level:

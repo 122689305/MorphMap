@@ -25,7 +25,7 @@ class GraphBuilder:
   cache_dir = '../cache/entity'
   relations = {'sub_entity':'GraphBuilder:sub_entity'}
 #  stat_data = [(a_sts.count(), a_sts.ea2ae()) for a_sts in [AliasStatistics()]][0][1]
-  stat_data = AliasStatistics().ea2ae()
+#  stat_data = AliasStatistics().ea2ae()
 
   def __init__(self, root_entity_name):
     self.root = Element(name=root_entity_name, children=[], parent=None, level=0, element_type=Element.ElementType.entity)
@@ -41,6 +41,7 @@ class GraphBuilder:
         self.expandGraph(deep_level)
       return self.root
     self.root = self.cache(os.path.join(self.cache_dir, self.root.name), _getGraph) 
+    return self.root
 
   def expandGraphFromOneElementWithMaxDeeplevel(self, e, deep_level):
     print('here')
@@ -198,11 +199,11 @@ def test2():
 
 def test3():
   mb = GraphBuilder('薄熙来')
-  mb.getGraph() 
+  print(mb.getGraph())
 
 def test4():
   mb = GraphBuilder('李自成')
-  mb.getGraph() 
+  print(mb.getGraph())
 
 if __name__ == '__main__':
-  test4()
+  test3()

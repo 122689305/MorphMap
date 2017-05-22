@@ -1,7 +1,7 @@
 # coding:utf-8
 import os
 ne_dir = '../../output/named_entity'
-ne_list_path = '../../output/tmp_named_entity_list'
+ne_list_path = '../../output/named_entity_list'
 '''
 GPE 釜山
 ORG 基督教神學院

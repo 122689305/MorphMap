@@ -1,7 +1,7 @@
 # coding:utf-8
 
-import sys
-sys.path.insert(0, '../')
+#import sys
+#sys.path.insert(0, '../')
 import os
 from codes.Cache import cache, clearCache
 
@@ -10,18 +10,25 @@ cache_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)),'cache/elem
 def enum(**enums):
   return type('Enum', (), enums)
 
-class EntityDict:
-  cache_name = os.path.join(cache_dir, 'entity_dict')
+class ElementList:
+  cache_name = os.path.join(cache_dir, 'element_list')
   def __init__(self):
-    self.entity_dict = cache(EntityDict.cache_name, lambda :{})
+    self.element_list = cache(ElementList.cache_name, lambda :[])
 
   def __del__(self):
-    clearCache(EntityDict.cache_name)
-    cache(EntityDict.cache_name, lambda :self.entity_dict)
+    print('__del__')
+    clearCache(ElementList.cache_name)
+    cache(ElementList.cache_name, lambda :self.element_list)
 
+  def __getitem__(self, index):
+    return self.element_list[index]
+ 
+  def append(self, obj):
+    self.element_list.append(obj) 
 class Element:
 
-  entity_dict = EntityDict().entity_dict
+  entity_dict = {}
+  element_list = ElementList()
 
   def __init__(self, name='', children=[], parent=None, level=None, element_type=None, wv=None):
     self.name = name
@@ -36,6 +43,8 @@ class Element:
         Element.entity_dict[name] = self
       else:
         self.children = Element.entity_dict[name].children
+    
+    Element.element_list.append(self)
 
   def _str_(self, prefix, e):
     s = ''

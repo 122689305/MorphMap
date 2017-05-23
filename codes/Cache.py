@@ -3,9 +3,9 @@ import os
 import pickle
 import time
 
+open = open
 def cache(filename, func, *args, **keywords):
   time_start = time.time()
-  import os
   existed = os.path.isfile(filename)
   print('cache {0}'.format(filename))
   if existed:
@@ -21,7 +21,7 @@ def cache(filename, func, *args, **keywords):
 
 
 def clearCache(filename):
-  import os
+  print(filename)
   existed = os.path.isfile(filename)
   if existed:
     os.remove(filename)

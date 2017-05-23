@@ -5,7 +5,7 @@ import pickle
 import time
 class AliasStatistics():
   source_path = '../../../data/zhwiki-20161201-pages-articles-multistream.xml'
-  cache_paths = {'entity_alias':'../cache/statistics/alias/entity_alias.pkl', 'alias_entity':'../cache/statistics/alias/alias_entity.pkl', 'entity_alias_meta':'../../output/statistics/alias/entity_alias_meta.pkl'}
+  cache_paths = {'entity_alias':'cache/statistics/alias/entity_alias.pkl', 'alias_entity':'cache/statistics/alias/alias_entity.pkl', 'entity_alias_meta':'../output/statistics/alias/entity_alias_meta.pkl'}
 
   entity_link_re = re.compile(r'\[\[(.*?)\]\]')
   entity_alias_re = re.compile(r'^(?<!#)s?:?(.*?)(?:#.*(?=\|))?\|(.*)')
@@ -75,6 +75,8 @@ class AliasStatistics():
 
   def cache(self, func, filename):
     import os
+    filename = os.path.join(os.path.dirname(__file__), '..', filename)
+    print(filename)
     time_start = time.time()
     existed = os.path.isfile(filename)
     if existed:

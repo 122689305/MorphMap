@@ -1,12 +1,13 @@
 # coding=utf-8
-import sys
-sys.path.append('../../')
+#import sys
+#sys.path.append('../../')
 import os
 import pickle
 import subprocess
 import re
 import json
 from functools import partial
+from .. import jieba
 from codes import jieba
 from codes.Element import Element
 from codes.zhtools.langconv import *
@@ -127,10 +128,13 @@ class GraphBuilder:
     if not el_x.children:
       el_x.children = self.tup2graph(self.getOneHop(el_x.name), el_x.level).children
 
-  def tup2graph(self, tup, init_level):
-    def _tup2graph(tup, init_level):
+  def tup2graph(self, tup, init_level, init_el = None):
+    def _tup2graph(tup, init_level, init_el = None):
       e_x, r_e_list = tup
-      el_x = Element(name=e_x, level=init_level, element_type=Element.ElementType.entity) 
+      if init_el:
+        el_x = init_el
+      else:
+        el_x = Element(name=e_x, level=init_level, element_type=Element.ElementType.entity) 
       for r,e in r_e_list:
         el_r = Element(name=r, element_type=Element.ElementType.relation)
         if isinstance(e, tuple):
@@ -140,7 +144,7 @@ class GraphBuilder:
         Element.concat(el_x, el_r)
         Element.concat(el_r, el_e)
       return el_x
-    return _tup2graph(tup, init_level)
+    return _tup2graph(tup, init_level, init_el)
 
   def getOneHop(self, ex):
     '''
@@ -188,7 +192,11 @@ class GraphBuilder:
 def test1():
   mb = GraphBuilder('薄熙来')
   mb.doElementOneHop(mb.root)
-  print(mb)
+  print(id(mb.root))
+  for e in mb.root.children:
+    print(id(e.parent))
+  del Element.element_list
+  #print(mb)
 
 def test2():
   mb = GraphBuilder('薄熙来')

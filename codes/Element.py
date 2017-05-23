@@ -3,7 +3,8 @@
 #import sys
 #sys.path.insert(0, '../')
 import os
-from codes.Cache import cache, clearCache
+from .Cache import cache, clearCache
+import codes
 
 cache_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)),'cache/element')
 
@@ -28,7 +29,7 @@ class ElementList:
 class Element:
 
   entity_dict = {}
-  element_list = ElementList()
+  element_list = []
 
   def __init__(self, name='', children=[], parent=None, level=None, element_type=None, wv=None):
     self.name = name

@@ -2,9 +2,12 @@
 import os
 import pickle
 import time
-
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+print(sys.path[0])
 open = open
 def cache(filename, func, *args, **keywords):
+  from . import Element
   time_start = time.time()
   existed = os.path.isfile(filename)
   print('cache {0}'.format(filename))

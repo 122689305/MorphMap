@@ -7,7 +7,7 @@ import subprocess
 import re
 import json
 from functools import partial
-from .. import jieba
+import sys
 from codes import jieba
 from codes.Element import Element
 from codes.zhtools.langconv import *
@@ -126,7 +126,7 @@ class GraphBuilder:
   def doElementOneHop(self, element_ex):
     el_x = element_ex
     if not el_x.children:
-      el_x.children = self.tup2graph(self.getOneHop(el_x.name), el_x.level).children
+      el_x.children = self.tup2graph(self.getOneHop(el_x.name), el_x.level, el_x).children
 
   def tup2graph(self, tup, init_level, init_el = None):
     def _tup2graph(tup, init_level, init_el = None):
@@ -192,11 +192,7 @@ class GraphBuilder:
 def test1():
   mb = GraphBuilder('薄熙来')
   mb.doElementOneHop(mb.root)
-  print(id(mb.root))
-  for e in mb.root.children:
-    print(id(e.parent))
-  del Element.element_list
-  #print(mb)
+  print(mb)
 
 def test2():
   mb = GraphBuilder('薄熙来')
@@ -223,4 +219,5 @@ def test5():
   #print(mb)
 
 if __name__ == '__main__':
-  test1()
+  test3()
+  test4()

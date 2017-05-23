@@ -218,6 +218,16 @@ def test5():
   print(Element.entity_dict['薄熙来'].children)
   #print(mb)
 
+def test6():
+  mb = GraphBuilder('李自成')
+  #mb.doElementOneHop(mb.root)
+  mb.getGraph()
+  print(mb)
+  r = mb.root.children[1].children[0]
+  e = r.children[0]
+  print(id(r), r.name)
+  print(id(e.parent), e.parent.name)
+
 if __name__ == '__main__':
   test3()
   test4()

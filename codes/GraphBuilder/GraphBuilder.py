@@ -24,7 +24,7 @@ class Element:
 class GraphBuilder:
   server_url = 'http://202.120.38.146:9600/data/sparql'
   cache_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), '../cache/entity')
-  relations = {'sub_entity':'GraphBuilder:sub_entity'}
+  relations = {'sub_entity':'subEntity'}
 #  stat_data = [(a_sts.count(), a_sts.ea2ae()) for a_sts in [AliasStatistics()]][0][1]
   stat_data = AliasStatistics().ea2ae()
 

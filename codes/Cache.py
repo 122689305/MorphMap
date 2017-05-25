@@ -17,10 +17,14 @@ def cache(filename, func, *args, **keywords):
   else:
     print('loading by computing')
     data = func(*args, **keywords)
-    pickle.dump(data, open(filename, 'wb'))
-  print('loading finished :{0}s'.format(time.time()-time_start))
+    pickle.dump(data, open(filename, 'wb'), -1)
+  print('loading {0} finished :{1}s'.format(filename, time.time()-time_start))
   return data
 
+def cacheDecorator(f):
+  def _call(filename, *args, **kwargs):
+    return cache(filename, f, *args, **kwargs) 
+  return _call
 
 def clearCache(filename):
   print(filename)

@@ -62,12 +62,20 @@ class Element:
   def __str__(self):
     return self._str_('', self) 
 
+  def getHistoryText(self):
+    node = self
+    suf = ''
+    while node: 
+      suf = ('--' if node.element_type == Element.ElementType.relation else '-->') + node.name + str(node.level) + suf
+      node = node.parent
+    return suf
+
   # get grand parent whose level is larger than it
   def getTrueParent(self):
-    node = self.parent
-    while node.parent and node.parent.level == node.level:
+    node = self
+    while node and node.parent and node.parent.level == node.level:
       node = node.parent
-    return node
+    return node.parent
 
   @classmethod
   def concat(cls, element1, element2):

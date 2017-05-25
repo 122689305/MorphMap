@@ -12,6 +12,7 @@ import re
 import os
 import urllib 
 import math
+import itertools
 
 class EN2CNDict:
   def __init__(self, dict_path):
@@ -76,7 +77,8 @@ class GraphMatcher:
       except:
         sc = -1
     e = lambda x:math.pow(math.e, x)
-    sc = -1 + 2*((e(x)-e(-1))/(e(1)-e(-1)))
+    f = lambda x:-1 + 2*((e(x)-e(-1))/(e(1)-e(-1)))
+    sc = f(sc)
     return sc  
 
   def getSameLevel(self, node):
@@ -98,15 +100,28 @@ class GraphMatcher:
     while node_list:
       node_list = flat([self.getSameLevel(x) for x in node_list])
       yield node_list
-      node_list = [x for _x in node_list for x in _x.children if x.parent == _x] # control loop and subEntity, wikiPageRedirects
+      node_list = [x for _x in node_list for x in _x.children if x.parent == _x and x.level > _x.level] # control loop and subEntity, wikiPageRedirects
 
   def computeBiGraphScore(self, graph1, graph2):
-    graph_list = [graph1, graph2]
-    node_list_list = [self.layerSearch(g).__next__() for g in graph_list]
-    node_pair_score_dict = {}
-    while all(node_list_list):
-      
-
+    alpha = 0.8 # the parameter to control the distance panishment
+    graph_list = [graph1.root, graph2.root]
+    gen_node_list = [self.layerSearch(g) for g in graph_list]
+    node_pair_score_dict = {(None, None):0}
+    for node_list_list, n in zip(zip(*gen_node_list), itertools.count(0)):
+      print('layer {0}'.format(n))
+      for node_list in node_list_list:
+        print()
+        for node in node_list:
+          print(node.name, type(node.getTrueParent()))
+      gen_node_pair = itertools.product(*node_list_list)  
+      for node_pair in gen_node_pair:
+        score = self.getScore(*node_pair)
+        parent_pair = tuple([x.getTrueParent() for x in node_pair])
+        if not parent_pair in node_pair_score_dict: 
+          for pair in parent_pair: print(pair.getHistoryText())
+        score += node_pair_score_dict[parent_pair]*alpha 
+        node_pair_score_dict[node_pair] = score
+    return node_pair_score_dict
 
   def isSimilar(self, element1, element2):
     # please update this accordding to the structure of the Element
@@ -312,7 +327,7 @@ def test5():
 
 def test6():
   gm = GraphMatcher()
-  gb = GraphBuilder('平西王')
+  gb = GraphBuilder('薄熙来')
   gb.getGraph()
   layer = gm.layerSearch(gb.root)
   cnt = 0
@@ -326,5 +341,20 @@ def test6():
     #if cnt > 3:
       #break
   print(cnt)
+
+def test7():
+  gm = GraphMatcher()
+  gb1 = GraphBuilder('平西王')
+  gb2 = GraphBuilder('薄熙来')
+  gb1.getGraph()
+  gb2.getGraph()
+  score_dict = gm.computeBiGraphScore(gb1, gb2)
+  cnt = 0
+  for k,v in score_dict.items():
+    n1,n2 = k
+    if all([n1,n2]): print(n1.name, n2.name, v)
+    cnt += 1
+    if cnt > 10: break
+
 if __name__ == '__main__':
-  test6()
+  test7()

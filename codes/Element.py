@@ -52,7 +52,7 @@ class Element:
     prefix += ('--' if e.element_type == Element.ElementType.relation else '-->') + e.name + str(e.level)
     if e.children:
       for sub_e in e.children:
-        if sub_e.level > e.level:
+        if sub_e.parent == e:
           s += self._str_(prefix, sub_e)
     else:
       s = prefix+'\n'
@@ -61,6 +61,13 @@ class Element:
 
   def __str__(self):
     return self._str_('', self) 
+
+  # get grand parent whose level is larger than it
+  def getTrueParent(self):
+    node = self.parent
+    while node.parent and node.parent.level == node.level:
+      node = node.parent
+    return node
 
   @classmethod
   def concat(cls, element1, element2):

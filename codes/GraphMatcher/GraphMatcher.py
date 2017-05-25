@@ -1,23 +1,112 @@
 # coding:utf-8
 import sys
 sys.path.append('../../')
-from codes.MapBuilder.MapBuilder import MapBuilder
+#from codes.MapBuilder.MapBuilder import MapBuilder
+from codes.GraphBuilder.GraphBuilder import GraphBuilder
 from codes.Element import Element
 from functools import partial
 import pickle
 import gensim
+from codes import jieba
+import re
+import os
+import urllib 
+import math
 
+class EN2CNDict:
+  def __init__(self, dict_path):
+    f = open(dict_path, 'r')
+    flat = lambda L: sum(list(map(flat,L)),[]) if isinstance(L,list) else [L]
+    sp = lambda y: [s.strip() for s in re.split(r'[a-z]*?\.|,|\s+',re.sub(r'\[.*?\]|\(.*\)|<.*>', '', y)) if s]
+    self.en2cn_dict = dict([(x, sp(y)) for l in f.readlines() for x,y in [tuple(re.split(r'\s+', l, maxsplit=1))]])
+
+  def __getitem__(self, index):
+    #print(index)
+    return self.en2cn_dict[index] if index in self.en2cn_dict else None
+
+  def __iter__(self):
+    return self.en2cn_dict.__iter__()
+  
 class GraphMatcher:
 
   w2v_model_dir = '/home/bill/cdminer/ijcai/corpus_data/w2v/chineseembedding_0207_toload.txt'
   cache_dir = '../cache'
   wv_sim_thre = 0.7
+  w2v_web_url = 'http://202.120.38.146:9602'
 
   def __init__(self):
     # each pair represents a match
     self.element_pair = {}
     self.chain_pair = {}
-    self.model_cn = gensim.models.Word2Vec.load_word2vec_format(self.w2v_model_dir,binary=False)
+    #self.model_cn = gensim.models.Word2Vec.load_word2vec_format(self.w2v_model_dir,binary=False)
+    #self.model_cn = gensim.models.KeyedVectors.load_word2vec_format(self.w2v_model_dir, binary=False)
+    self.en2cn_dict = EN2CNDict(os.path.join(os.path.dirname(__file__), '../en2cn.dict'))
+
+  # return a list of comparable words. Like 'king' -> ['king', '国王', '君主']
+  # all words in the list will be compared by word vector
+  def getComparableList(self, literal):
+    flat = lambda L: sum(list(map(flat,L)),[]) if isinstance(L,list) else [L]
+    cbl = set([literal])
+    sep = [x.lower() for x in re.split(r"[：\.\!\/_,$%^*(+\"\']+|[+——！，。？、~@#￥%……&*（）!\"#$%&\'()*+,-./:;<=>?@\[\\\]\^_`{|}~\s]+|([A-Z][a-z]*)", literal) if x]
+    cbl |= set(sep)
+    sep = flat([self.en2cn_dict[x] for x in sep if x in self.en2cn_dict])
+    cbl |= set(sep)
+    #sep = flat([list(jieba.cut(x)) for x in sep])
+    #cbl |= set(sep)
+    return list(cbl)
+
+  def getW2VSimilarity(self, name1, name2):
+    #for x in [name1, name2]:
+    #  x = x.encode('utf-8')
+    data = urllib.parse.urlencode({'w1':name1, 'w2':name2})
+    url = 'http://202.120.38.146:9602/?{0}'.format(data)
+    f = urllib.request.urlopen(url)
+    if f.getcode() == 200:
+      return eval(f.readline())
+    else:
+      return None;
+
+  def getScore(self, element1, element2):
+    sc = -1
+    if element1.name == element2.name:
+      sc = 1
+    else:
+      try:
+        sc = max(filter(lambda x:x, [self.getW2VSimilarity(n1, n2) for n1 in self.getComparableList(name1) for n2 in self.getComparableList(name2)]))
+      except:
+        sc = -1
+    e = lambda x:math.pow(math.e, x)
+    sc = -1 + 2*((e(x)-e(-1))/(e(1)-e(-1)))
+    return sc  
+
+  def getSameLevel(self, node):
+    flat = lambda L: sum(list(map(flat,L)),[]) if isinstance(L,list) else [L]
+    def _getSameLevel(node, level):
+      if node.level == level:
+        return [node] + flat([_getSameLevel(x, level) for x in node.children if x.parent == node])
+      else:
+        return []
+    if node.element_type == Element.ElementType.relation:
+      return [node]
+    else:
+      data = _getSameLevel(node, node.level)
+      return list(filter(lambda x:x.element_type==Element.ElementType.entity, data))
+
+  def layerSearch(self, node):
+    flat = lambda L: sum(list(map(flat,L)),[]) if isinstance(L,list) else [L]
+    node_list = [node]
+    while node_list:
+      node_list = flat([self.getSameLevel(x) for x in node_list])
+      yield node_list
+      node_list = [x for _x in node_list for x in _x.children if x.parent == _x] # control loop and subEntity, wikiPageRedirects
+
+  def computeBiGraphScore(self, graph1, graph2):
+    graph_list = [graph1, graph2]
+    node_list_list = [self.layerSearch(g).__next__() for g in graph_list]
+    node_pair_score_dict = {}
+    while all(node_list_list):
+      
+
 
   def isSimilar(self, element1, element2):
     # please update this accordding to the structure of the Element
@@ -194,9 +283,48 @@ def test1():
 
 def test2():
   gm = GraphMatcher()
-  gb1 = GraphBuilder('薄熙来')
-  gb2 = GraphBuilder('李自成')
+  gb1 = GraphBuilder('薄熙来').getGraph()
+  gb2 = GraphBuilder('李自成').getGraph()
   testFindChain(gm, gb1, gb2)
 
+def test3():
+  di = EN2CNDict(os.path.join(os.path.dirname(__file__), '../en2cn.dict'))
+  print(di.en2cn_dict['king'])
+
+def test4():
+  gm = GraphMatcher()
+  l = gm.getComparableList('termStart')
+  print(l)
+
+def test5():
+  gm = GraphMatcher()
+  for x,y in [('主席', '首领'), ('前进', '行进'), ('杀戮','刺杀'),  ('皇帝', '皇上'), ('晴天', '晴朗'), ('傻瓜', '笨蛋'), ('学习','进修'), ('得意', '骄傲'), ('环境', '杯子'), ('丑八怪', '小吃'), ('无所谓', '抽纸'), ('书本', '吃饭'), ('强制', '哈气'), ('宝贝', '革命'), ('睡觉', '宇宙飞船'), ('宜家','字符'), ('宜家', '挑战')]:
+    sc = gm.getW2VSimilarity(x,y)
+    grid = 60
+    pro = int((sc+1)/2.0*grid)
+    if pro > grid//2:
+      pro = ' '*(grid//2-1) + '^' + '+'*(pro-grid//2-1) + '*' + ' '*(grid-pro)
+    elif pro == grid//2:
+      pro = ' '*(grid//2-1) + '*'
+    else:
+      pro = ' '*(pro-1) + '*' + '-'*(grid//2 - pro-1) + '^' + ' '*(grid//2)
+    print('{3} |{0} and {1}: {2}'.format(x,y,sc,pro))
+
+def test6():
+  gm = GraphMatcher()
+  gb = GraphBuilder('平西王')
+  gb.getGraph()
+  layer = gm.layerSearch(gb.root)
+  cnt = 0
+  for l in layer:
+    print('{1}layer:{0}{1}'.format(cnt, '-'*20))
+    for x in l:
+      print(x.name, end=' ')
+    print()
+    print()
+    cnt += 1
+    #if cnt > 3:
+      #break
+  print(cnt)
 if __name__ == '__main__':
-  test2()
+  test6()

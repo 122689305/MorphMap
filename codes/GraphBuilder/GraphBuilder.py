@@ -22,21 +22,20 @@ class Element:
 '''
 
 class GraphBuilder:
-  server_url = 'http://202.120.38.146:9600/data/sparql'
-  cache_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), '../cache/entity')
-  relations = {'sub_entity':'subEntity'}
-#  stat_data = [(a_sts.count(), a_sts.ea2ae()) for a_sts in [AliasStatistics()]][0][1]
-  stat_data = AliasStatistics().ea2ae()
 
   def __init__(self, root_entity_name):
+    self.server_url = 'http://202.120.38.146:9600/data/sparql'
+    self.cache_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), '../cache/entity')
+    self.relations = {'sub_entity':'subEntity'}
+#  sself.tat_data = [(a_sts.count(), a_sts.ea2ae()) for a_sts in [AliasStatistics()]][0][1]
+    self.stat_data = AliasStatistics().ea2ae()
     self.root = Element(name=root_entity_name, children=[], parent=None, level=0, element_type=Element.ElementType.entity)
 
   def __str__(self):
     return self.root.__str__()
 
   # Todo
-  def getGraph(self):
-    deep_level = 2
+  def getGraph(self, deep_level = 2):
     def _getGraph():
       for i in range(deep_level):
         self.expandGraph(deep_level)
@@ -51,7 +50,7 @@ class GraphBuilder:
         self.doElementOneHop(e)
       else:
         for sub_e in e.children:
-          if sub_e.level < max_level and sub_e.level > e.level:
+          if sub_e.parent == e and sub_e.level < max_level: # true chidlren and smaller than max level
             _expand(sub_e)
     _expand(e)
     return e
@@ -63,7 +62,7 @@ class GraphBuilder:
         self.doElementOneHop(e)
       else:
         for sub_e in e.children:
-          if sub_e.level > e.level:
+          if sub_e.level >= e.level:
             _expand(sub_e)
     _expand(e)
     return e
@@ -91,16 +90,21 @@ class GraphBuilder:
   # empty: Ture if the content of data is empty
   # data: a list of tuples. each tuple is in the form of (property, value)
   def query(self, name):
-    name = self.encodeForQuery(name)
-    (status, data) = self.rawQuery('http://zh.dbpedia.org/resource/'+name)
-    if (status == 0):
-      jo = json.loads(data)
-      data = map(lambda yz: (yz['y']['value'].split('/')[-1], yz['z']['value'] if yz['z']['type'] != 'uri' else yz['z']['value'].split('/')[-1]), jo['results']['bindings'])
-      data = list(data)
-      return data
-    else:
-      return []
-
+    def _query(name):
+      name = self.encodeForQuery(name)
+      (status, data) = self.rawQuery('http://zh.dbpedia.org/resource/'+name)
+      if (status == 0):
+        jo = json.loads(data)
+        data = map(lambda yz: (yz['y']['value'].split('/')[-1], yz['z']['value'] if yz['z']['type'] != 'uri' else yz['z']['value'].split('/')[-1]), jo['results']['bindings'])
+        data = list(data)
+        return data
+      else:
+        return []
+    name = re.sub(r'\s','_',name)
+    for n in [Converter('zh-hans').convert(name), Converter('zh-hant').convert(name)]:
+      data = _query(n)
+      if data: return data
+    return []
   # return [w1, w2, ...]
   # word segmentation. split in to queryful names
   def entitiesOf(self, literal):
@@ -119,14 +123,20 @@ class GraphBuilder:
 #      e_list = re.split(r"\s+",literal)
 # /debug
       e_list = list(filter(lambda e: e != '', e_list))
-      return e_list
+      l1 = (flat(e_list))
+      l2 = sorted(set(l1), key=l1.index)
+      return l2
     else:
       return [literal]
 
   def doElementOneHop(self, element_ex):
+    print(element_ex.name)
     el_x = element_ex
     if not el_x.children:
       el_x.children = self.tup2graph(self.getOneHop(el_x.name), el_x.level, el_x).children
+      for el_r in el_x.children:
+        if el_r.element_type==Element.ElementType.relation and el_r.name=='wikiPageRedirects':
+          self.doElementOneHop(el_r.children[0])
 
   def tup2graph(self, tup, init_level, init_el = None):
     def _tup2graph(tup, init_level, init_el = None):
@@ -137,12 +147,19 @@ class GraphBuilder:
         el_x = Element(name=e_x, level=init_level, element_type=Element.ElementType.entity) 
       for r,e in r_e_list:
         el_r = Element(name=r, element_type=Element.ElementType.relation)
+        Element.concat(el_x, el_r)
+        next_level = init_level+2
+        if el_r.name == 'wikiPageRedirects' or el_r.name == 'subEntity':
+          el_r.level = init_level
+          next_level = init_level
         if isinstance(e, tuple):
-          el_e = _tup2graph(e, init_level+2)
+          el_e = _tup2graph(e, next_level)
         else:
           el_e = Element(name=e, element_type=Element.ElementType.entity)
-        Element.concat(el_x, el_r)
         Element.concat(el_r, el_e)
+        if el_r.name == 'wikiPageRedirects' or el_r.name == 'subEntity':
+          el_e.level = init_level
+
       return el_x
     return _tup2graph(tup, init_level, init_el)
 
@@ -167,7 +184,7 @@ class GraphBuilder:
 # debug
     a2e = lambda e: alias_entity[e][:5] if e in alias_entity else []
 # /debug
-    sub_e_list = noEm(flat([join_comb(comb(exploded_ex)) for exploded_ex in explode(ex)]))
+    sub_e_list = noEm(join_comb(comb(explode(ex))))
     sub_e_list += flat(list(map(a2e, sub_e_list)))
     sub_e_list = noEm(noEx(sub_e_list))
     print(sub_e_list)
@@ -205,7 +222,7 @@ def test3():
   print(mb.getGraph())
 
 def test4():
-  mb = GraphBuilder('李自成')
+  mb = GraphBuilder('平西王')
   print(mb.getGraph())
 
 def test5():
@@ -228,6 +245,25 @@ def test6():
   print(id(r), r.name)
   print(id(e.parent), e.parent.name)
 
+def test7():
+  entity_morph=[('薄熙来', '平西王'), ('毛泽东', '太祖'), ('陈光诚', '盲人'), ('王立军','西南王警官'),('德文·韦德', '闪电侠'), ('金正恩', '金胖子'), ('蒋介石', '常公公'), ('杨幂','函数')]
+  for tup in entity_morph:
+    for name in tup:
+      mb = GraphBuilder(name)
+      mb.getGraph()
+
+def test8():
+  entity_morph=[('薄熙来', '平西王')]
+  for tup in entity_morph:
+    for name in tup:
+      mb = GraphBuilder(name)
+      mb.getGraph()
+
+def test9():
+  mb = GraphBuilder('')
+  print(mb.entitiesOf('6500000'))
+  mb.getOneHop('6500000')
+
 if __name__ == '__main__':
-  test3()
-  test4()
+  test8()
+  #test9()

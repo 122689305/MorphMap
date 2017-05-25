@@ -10,12 +10,15 @@ from codes.zhtools.langconv import *
 from codes.GraphStatistics.AliasStatistics import AliasStatistics
 
 class MapBuilder:
-  server_url = 'http://202.120.38.146:9600/data/sparql'
-  cache_dir = '../cache'
-  deep_level = 1
-  relations = {'sub_entity':'MapBuilder:sub_entity'}
-  stat_data = [(a_sts.count(), a_sts.ea2ae()) for a_sts in [AliasStatistics()]][0][1]
-
+  
+  def __init__(self):
+    self.server_url = 'http://202.120.38.146:9600/data/sparql'
+    self.cache_dir = '../cache'
+    self.deep_level = 1
+    self.relations = {'sub_entity':'MapBuilder:sub_entity'}
+    self.stat_data = [(a_sts.count(), a_sts.ea2ae()) for a_sts in [AliasStatistics()]][0][1]
+  
+  
   # return (status,data)
   # status: 0 or other
   # data: json-like object

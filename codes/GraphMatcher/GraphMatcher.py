@@ -4,6 +4,8 @@ sys.path.append('../../')
 #from codes.MapBuilder.MapBuilder import MapBuilder
 from codes.GraphBuilder.GraphBuilder import GraphBuilder
 from codes.Element import Element
+from codes.Cache import cache
+from codes.util import showComputingTime
 from functools import partial
 import pickle
 import gensim
@@ -31,7 +33,6 @@ class EN2CNDict:
 class GraphMatcher:
 
   w2v_model_dir = '/home/bill/cdminer/ijcai/corpus_data/w2v/chineseembedding_0207_toload.txt'
-  cache_dir = '../cache'
   wv_sim_thre = 0.7
   w2v_web_url = 'http://202.120.38.146:9602'
 
@@ -42,6 +43,7 @@ class GraphMatcher:
     #self.model_cn = gensim.models.Word2Vec.load_word2vec_format(self.w2v_model_dir,binary=False)
     #self.model_cn = gensim.models.KeyedVectors.load_word2vec_format(self.w2v_model_dir, binary=False)
     self.en2cn_dict = EN2CNDict(os.path.join(os.path.dirname(__file__), '../en2cn.dict'))
+    self.cache_dir = os.path.join(os.path.dirname(__file__), '../cache/matcher')
 
   # return a list of comparable words. Like 'king' -> ['king', '国王', '君主']
   # all words in the list will be compared by word vector
@@ -102,6 +104,11 @@ class GraphMatcher:
       yield node_list
       node_list = [x for _x in node_list for x in _x.children if x.parent == _x and x.level > _x.level] # control loop and subEntity, wikiPageRedirects
 
+  def cachedComputeBiGraphScore(self, graph1, graph2):
+    filename = os.path.join(self.cache_dir, graph1.root.name +'_'+graph2.root.name)
+    return cache(filename, self.computeBiGraphScore, graph1, graph2)
+
+  @showComputingTime
   def computeBiGraphScore(self, graph1, graph2):
     alpha = 0.8 # the parameter to control the distance panishment
     graph_list = [graph1.root, graph2.root]
@@ -121,7 +128,11 @@ class GraphMatcher:
           for pair in parent_pair: print(pair.getHistoryText())
         score += node_pair_score_dict[parent_pair]*alpha 
         node_pair_score_dict[node_pair] = score
-    return node_pair_score_dict
+    return self.sortedNodePairScoreDict(node_pair_score_dict)
+
+  @showComputingTime
+  def sortedNodePairScoreDict(self, node_pair_score_dict):
+    return sorted(node_pair_score_dict.items(), key=lambda d:d[1], reverse=True)
 
   def isSimilar(self, element1, element2):
     # please update this accordding to the structure of the Element
@@ -348,13 +359,18 @@ def test7():
   gb2 = GraphBuilder('薄熙来')
   gb1.getGraph()
   gb2.getGraph()
-  score_dict = gm.computeBiGraphScore(gb1, gb2)
+  score_list = gm.cachedComputeBiGraphScore(gb1, gb2)
+  #score_dict = gm.cachedComputeBiGraphScore(gb1, gb2)
+  #score_list = gm.sortedNodePairScoreDict(score_dict)
   cnt = 0
-  for k,v in score_dict.items():
+  for k,v in score_list:
     n1,n2 = k
-    if all([n1,n2]): print(n1.name, n2.name, v)
+    if all([n1,n2]):
+      print(n1.name, n2.name, v)
+      print(n1.getHistoryText())
+      print(n2.getHistoryText())
     cnt += 1
-    if cnt > 10: break
+    if cnt > 100: break
 
 if __name__ == '__main__':
   test7()

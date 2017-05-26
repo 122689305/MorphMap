@@ -3,10 +3,13 @@
 #import sys
 #sys.path.insert(0, '../')
 import os
-from .Cache import cache, clearCache
+import re
+from codes.Cache import cache, clearCache
+from codes.EN2CNDict import EN2CNDict
 import codes
 
 cache_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)),'cache/element')
+en2cn_dict = EN2CNDict()
 
 def enum(**enums):
   return type('Enum', (), enums)
@@ -26,6 +29,7 @@ class ElementList:
  
   def append(self, obj):
     self.element_list.append(obj) 
+
 class Element:
 
   entity_dict = {}
@@ -49,7 +53,7 @@ class Element:
 
   def _str_(self, prefix, e):
     s = ''
-    prefix += ('--' if e.element_type == Element.ElementType.relation else '-->') + e.name + str(e.level)
+    prefix += ('--' + self.convert2CN(e.name) if e.element_type == Element.ElementType.relation else '-->' + e.name)  + str(e.level)
     if e.children:
       for sub_e in e.children:
         if sub_e.parent == e:
@@ -62,11 +66,17 @@ class Element:
   def __str__(self):
     return self._str_('', self) 
 
+  def convert2CN(self, name):
+    if name in ['wikiPageRedirects', 'subEntity']:
+      return name
+    converted = re.sub(r'^[a-z]*|[A-Z][a-z]*', lambda x: ''.join(x.group()+en2cn_dict[x.group().lower()][0]) if x.group().lower() in en2cn_dict else x.group(), name)
+    return converted
+
   def getHistoryText(self):
     node = self
     suf = ''
     while node: 
-      suf = ('--' if node.element_type == Element.ElementType.relation else '-->') + node.name + str(node.level) + suf
+      suf = ('--' + self.convert2CN(node.name) if node.element_type == Element.ElementType.relation else '-->' + node.name)  + str(node.level) + suf
       node = node.parent
     return suf
 

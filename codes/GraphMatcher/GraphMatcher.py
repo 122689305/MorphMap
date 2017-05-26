@@ -6,6 +6,7 @@ from codes.GraphBuilder.GraphBuilder import GraphBuilder
 from codes.Element import Element
 from codes.Cache import cache
 from codes.util import showComputingTime
+from codes.EN2CNDict import EN2CNDict
 from functools import partial
 import pickle
 import gensim
@@ -15,20 +16,6 @@ import os
 import urllib 
 import math
 import itertools
-
-class EN2CNDict:
-  def __init__(self, dict_path):
-    f = open(dict_path, 'r')
-    flat = lambda L: sum(list(map(flat,L)),[]) if isinstance(L,list) else [L]
-    sp = lambda y: [s.strip() for s in re.split(r'[a-z]*?\.|,|\s+',re.sub(r'\[.*?\]|\(.*\)|<.*>', '', y)) if s]
-    self.en2cn_dict = dict([(x, sp(y)) for l in f.readlines() for x,y in [tuple(re.split(r'\s+', l, maxsplit=1))]])
-
-  def __getitem__(self, index):
-    #print(index)
-    return self.en2cn_dict[index] if index in self.en2cn_dict else None
-
-  def __iter__(self):
-    return self.en2cn_dict.__iter__()
   
 class GraphMatcher:
 
@@ -86,7 +73,7 @@ class GraphMatcher:
   def getSameLevel(self, node):
     flat = lambda L: sum(list(map(flat,L)),[]) if isinstance(L,list) else [L]
     def _getSameLevel(node, level):
-      if node.level == level:
+      if node.level == level: #and node.name != 'subEntity': # turn off subEntity Feature
         return [node] + flat([_getSameLevel(x, level) for x in node.children if x.parent == node])
       else:
         return []
@@ -116,10 +103,10 @@ class GraphMatcher:
     node_pair_score_dict = {(None, None):0}
     for node_list_list, n in zip(zip(*gen_node_list), itertools.count(0)):
       print('layer {0}'.format(n))
-      for node_list in node_list_list:
-        print()
-        for node in node_list:
-          print(node.name, type(node.getTrueParent()))
+      #for node_list in node_list_list:
+      #  print()
+      #  for node in node_list:
+      #    print(node.name, type(node.getTrueParent()))
       gen_node_pair = itertools.product(*node_list_list)  
       for node_pair in gen_node_pair:
         score = self.getScore(*node_pair)
@@ -128,7 +115,11 @@ class GraphMatcher:
           for pair in parent_pair: print(pair.getHistoryText())
         score += node_pair_score_dict[parent_pair]*alpha 
         node_pair_score_dict[node_pair] = score
-    return self.sortedNodePairScoreDict(node_pair_score_dict)
+    del node_pair_score_dict[(None, None)]
+    score_list = self.sortedNodePairScoreDict(node_pair_score_dict)
+    score_list = list(filter(lambda kv:kv[0][0].element_type != Element.ElementType.relation, score_list))
+    #print(score_list)
+    return score_list
 
   @showComputingTime
   def sortedNodePairScoreDict(self, node_pair_score_dict):
@@ -338,7 +329,7 @@ def test5():
 
 def test6():
   gm = GraphMatcher()
-  gb = GraphBuilder('薄熙来')
+  gb = GraphBuilder('太祖')
   gb.getGraph()
   layer = gm.layerSearch(gb.root)
   cnt = 0
@@ -365,12 +356,41 @@ def test7():
   cnt = 0
   for k,v in score_list:
     n1,n2 = k
+    cnt += 1
+    if cnt < 0: continue
     if all([n1,n2]):
       print(n1.name, n2.name, v)
       print(n1.getHistoryText())
       print(n2.getHistoryText())
-    cnt += 1
     if cnt > 100: break
 
+def test8():
+  gm = GraphMatcher()
+  entity_morph=[('薄熙来', '平西王'), ('毛泽东', '太祖'), ('陈光诚', '盲人'), ('王立军','西南王警官'),('德文·韦德', '闪电侠'), ('金正恩', '金胖子'), ('蒋介石', '常公公'), ('杨幂','函数')]
+  for em in entity_morph:
+    print('{0}{1}{0}'.format('-'*20, em))
+    score_list = gm.cachedComputeBiGraphScore(*[GraphBuilder(x).getGraph() for x in em])
+    for score, n in zip(score_list, range(100)):
+      (n1, n2), v = score
+      print(n, n1.name, n2.name, v)
+      print(n1.getHistoryText()) 
+      print(n2.getHistoryText())
+
+def test9():
+  gm = GraphMatcher()
+  entity_morph=[('薄熙来', '平西王'), ('毛泽东', '太祖'), ('陈光诚', '盲人'), ('王立军','西南王警官'),('德文·韦德', '闪电侠'), ('金正恩', '金胖子'), ('蒋介石', '常公公'), ('杨幂','函数')]
+  index = 1
+  for em in [entity_morph[index]]:
+    graph_list = [GraphBuilder(x).getGraph() for x in em]
+    #[print(graph) for graph in graph_list]
+    score_list = gm.cachedComputeBiGraphScore(*graph_list)
+    for score, n in zip(score_list, range(100)):
+      (n1, n2), v = score
+      print(n, n1.name, n2.name, v)
+      print(n1.getHistoryText())
+      print(n2.getHistoryText())
+
+
+
 if __name__ == '__main__':
-  test7()
+  test8()

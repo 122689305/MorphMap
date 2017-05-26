@@ -22,13 +22,13 @@ class Element:
 '''
 
 class GraphBuilder:
+  stat_data = AliasStatistics().ea2ae()
 
   def __init__(self, root_entity_name):
     self.server_url = 'http://202.120.38.146:9600/data/sparql'
     self.cache_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), '../cache/entity')
     self.relations = {'sub_entity':'subEntity'}
 #  sself.tat_data = [(a_sts.count(), a_sts.ea2ae()) for a_sts in [AliasStatistics()]][0][1]
-    self.stat_data = AliasStatistics().ea2ae()
     self.root = Element(name=root_entity_name, children=[], parent=None, level=0, element_type=Element.ElementType.entity)
 
   def __str__(self):
@@ -41,7 +41,7 @@ class GraphBuilder:
         self.expandGraph(deep_level)
       return self.root
     self.root = self.cache(os.path.join(self.cache_dir, self.root.name), _getGraph) 
-    return self.root
+    return self
 
   def expandGraphFromOneElementWithMaxDeeplevel(self, e, deep_level):
     max_level = e.level + deep_level*2
@@ -78,6 +78,10 @@ class GraphBuilder:
     name = name.replace(' ','_')
     return name
 
+  def filterQuery(self, query_result):
+    data = query_result
+    return list(filter(lambda yz: not yz[0] in ['direction', 'width', 'align', 'flagP', 'flagS', 'float', 'imgwidth', 'imageMap', 'imageFlag', 'image', 'imageSize', 'showflag', '图片', '图片大小', '图片说明'], data))
+
   # return (status,data)
   # status: 0 or other
   # data: json-like object
@@ -95,14 +99,15 @@ class GraphBuilder:
       (status, data) = self.rawQuery('http://zh.dbpedia.org/resource/'+name)
       if (status == 0):
         jo = json.loads(data)
-        data = map(lambda yz: (yz['y']['value'].split('/')[-1], yz['z']['value'] if yz['z']['type'] != 'uri' else yz['z']['value'].split('/')[-1]), jo['results']['bindings'])
-        data = list(data)
+        data = map(lambda yz: (yz['y']['value'].split('/')[-1], yz['z']['value'] if not (yz['z']['type'] == 'uri' and re.match(r'http://.*?\.dbpedia\.org',yz['z']['value'])) else yz['z']['value'].split('/')[-1]), jo['results']['bindings'])
+        data = self.filterQuery(data)
         return data
       else:
         return []
     name = re.sub(r'\s','_',name)
     for n in [Converter('zh-hans').convert(name), Converter('zh-hant').convert(name)]:
       data = _query(n)
+      print(n, data)
       if data: return data
     return []
   # return [w1, w2, ...]
@@ -116,7 +121,8 @@ class GraphBuilder:
       #return flat(list(list(map(lambda x: list(jieba.cut(x)), sep)) + sep)) 
 
       sep = re.split(r"[：\.\!\/_,$%^*(+\"\']+|[+——！，。？、~@#￥%……&*（）!\"#$%&\'()*+,-./:;<=>?@\[\\\]\^_`{|}~\s]+",literal)
-      e_list = list(map(lambda x: list(jieba.cut(x)), sep)) 
+      #e_list = list(map(lambda x: list(jieba.cut(x)), sep)) 
+      e_list = sep # turn of word segmentation feature
 
       #e_list = list(jieba.cut(literal))
 # debug
@@ -184,7 +190,8 @@ class GraphBuilder:
 # debug
     a2e = lambda e: alias_entity[e][:5] if e in alias_entity else []
 # /debug
-    sub_e_list = noEm(join_comb(comb(explode(ex))))
+    #sub_e_list = noEm(join_comb(comb(explode(ex))))
+    sub_e_list = noEm(explode(ex)) # turn off comb feature
     sub_e_list += flat(list(map(a2e, sub_e_list)))
     sub_e_list = noEm(noEx(sub_e_list))
     print(sub_e_list)
@@ -265,5 +272,5 @@ def test9():
   mb.getOneHop('6500000')
 
 if __name__ == '__main__':
-  test8()
+  test7()
   #test9()

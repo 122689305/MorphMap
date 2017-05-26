@@ -98,6 +98,24 @@ def test3():
       vg = gv.convertEG2VG(eleList)
       gv.getImage(vg, os.path.join(output_dir, gb.root.name +'.svg'))
 
+def test4():
+  entity_morph = [('薄熙来', '平西王'), ('毛泽东', '太祖'), ('陈光诚', '盲人'), ('王立军','西南王警官'),('德文·韦德', '闪电侠'), ('金正恩', '金胖子'), ('蒋介石', '常公公'), ('杨幂','函数')]
+  output_dir = os.path.dirname(__file__)
+  gv = GraphVisualizer()
+  from codes.GraphBuilder.GraphBuilder import GraphBuilder
+  for em in entity_morph:
+    eleList = []
+    names = []
+    for x in em:
+      gb = GraphBuilder(x)
+      gb.getGraph()
+      eleList += gv.getElementList(gb.root)
+      names += [gb.root.name]
+    eleList = list(set(eleList))
+    vg = gv.convertEG2VG(eleList)
+    gv.getImage(vg, os.path.join(output_dir, '_'.join(names) +'.svg'))
+
+
 if __name__ == '__main__':
-  test3()
+  test4()
   #test2()

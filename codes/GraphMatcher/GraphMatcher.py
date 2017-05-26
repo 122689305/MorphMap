@@ -73,7 +73,7 @@ class GraphMatcher:
   def getSameLevel(self, node):
     flat = lambda L: sum(list(map(flat,L)),[]) if isinstance(L,list) else [L]
     def _getSameLevel(node, level):
-      if node.level == level: #and node.name != 'subEntity': # turn off subEntity Feature
+      if node.level == level and (not node.name == 'subEntity' or len(node.children[0].children)<20): # add small subEntity feature
         return [node] + flat([_getSameLevel(x, level) for x in node.children if x.parent == node])
       else:
         return []

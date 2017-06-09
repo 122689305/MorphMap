@@ -1,0 +1,3006 @@
+/home/taoyuchao/Galaxy/MorphMap/codes/GraphStatistics/../cache/statistics/alias/alias_entity.pkl
+loading form /home/taoyuchao/Galaxy/MorphMap/codes/GraphStatistics/../cache/statistics/alias/alias_entity.pkl
+loading finished :3.2014613151550293s
+cache /home/taoyuchao/Galaxy/MorphMap/codes/GraphMatcher/../cache/matcher/杨幂_函数
+loading form /home/taoyuchao/Galaxy/MorphMap/codes/GraphMatcher/../cache/matcher/杨幂_函数
+loading /home/taoyuchao/Galaxy/MorphMap/codes/GraphMatcher/../cache/matcher/杨幂_函数 finished :0.1079092025756836s
+0 IT IT 0.2383999999999996
+-->杨幂0--网站1-->http://www.yangmi.com/2--subEntity2-->超文本傳輸協議2--g3-->IT4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2--g3-->IT4
+1 IT IT 0.2383999999999996
+-->杨幂0--网站1-->http://www.yangmi.com/2--subEntity2-->超文本傳輸協議2--g3-->IT4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2--g3-->IT4
+2 現代標準漢語 現代標準漢語 -0.44000000000000017
+-->杨幂0--语言1-->現代標準漢語2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+3 杨幂 函数 -1.0
+-->杨幂0
+-->函数0
+4 杨幂 函数 -1.0
+-->杨幂0
+-->函数0--wikiPageRedirects0-->函数0
+5 杨幂 子程序 -1.0
+-->杨幂0
+-->函数0--subEntity0-->子程序0
+6 杨幂 函数编程语言 -1.0
+-->杨幂0
+-->函数0--subEntity0-->函数编程语言0
+7 杨幂 函數程式語言 -1.0
+-->杨幂0
+-->函数0--subEntity0-->函数编程语言0--wikiPageRedirects0-->函數程式語言0
+8 杨幂 函数 (计算机科学) -1.0
+-->杨幂0
+-->函数0--subEntity0-->函数 (计算机科学)0
+9 杨幂 子程序 -1.0
+-->杨幂0
+-->函数0--subEntity0-->函数 (计算机科学)0--wikiPageRedirects0-->子程序0
+10 杨幂 连续函数 (拓扑学) -1.0
+-->杨幂0
+-->函数0--subEntity0-->连续函数 (拓扑学)0
+11 杨幂 連續函數_(拓撲學) -1.0
+-->杨幂0
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0
+12 杨幂 連續函數_(拓撲學) -1.0
+-->杨幂0
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--wikiPageRedirects0-->連續函數_(拓撲學)0
+13 杨幂 连续函数 -1.0
+-->杨幂0
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->连续函数0
+14 杨幂 连续函数 -1.0
+-->杨幂0
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->连续函数0--wikiPageRedirects0-->连续函数0
+15 杨幂 拓扑学 -1.0
+-->杨幂0
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0
+16 杨幂 连续函数 (拓扑学) -1.0
+-->杨幂0
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->连续函数 (拓扑学)0
+17 杨幂 連續函數 (拓撲學) -1.0
+-->杨幂0
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->連續函數 (拓撲學)0
+18 杨幂 連續函數_(拓撲學) -1.0
+-->杨幂0
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->連續函數 (拓撲學)0--wikiPageRedirects0-->連續函數_(拓撲學)0
+19 杨幂 连续 -1.0
+-->杨幂0
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->连续0
+20 杨幂 连续函数 -1.0
+-->杨幂0
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->连续0--wikiPageRedirects0-->连续函数0
+21 TV IT -1.7616000000000005
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2--g3-->TV4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2--g3-->IT4
+22 TV Communication -1.7616000000000005
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2--g3-->TV4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2--g3-->Communication4
+23 TV IT -1.7616000000000005
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2--g3-->TV4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2--g3-->IT4
+24 TV Communication -1.7616000000000005
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2--g3-->TV4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2--g3-->Communication4
+25 Cartoon IT -1.7616000000000005
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2--g3-->Cartoon4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2--g3-->IT4
+26 Cartoon Communication -1.7616000000000005
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2--g3-->Cartoon4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2--g3-->Communication4
+27 Cartoon IT -1.7616000000000005
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2--g3-->Cartoon4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2--g3-->IT4
+28 Cartoon Communication -1.7616000000000005
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2--g3-->Cartoon4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2--g3-->Communication4
+29 Movie IT -1.7616000000000005
+-->杨幂0--代表作1-->20072--wikiPageRedirects2-->2007年2--g3-->Movie4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2--g3-->IT4
+30 Movie Communication -1.7616000000000005
+-->杨幂0--代表作1-->20072--wikiPageRedirects2-->2007年2--g3-->Movie4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2--g3-->Communication4
+31 Movie IT -1.7616000000000005
+-->杨幂0--代表作1-->20072--wikiPageRedirects2-->2007年2--g3-->Movie4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2--g3-->IT4
+32 Movie Communication -1.7616000000000005
+-->杨幂0--代表作1-->20072--wikiPageRedirects2-->2007年2--g3-->Movie4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2--g3-->Communication4
+33 Show IT -1.7616000000000005
+-->杨幂0--代表作1-->20072--wikiPageRedirects2-->2007年2--g3-->Show4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2--g3-->IT4
+34 Show Communication -1.7616000000000005
+-->杨幂0--代表作1-->20072--wikiPageRedirects2-->2007年2--g3-->Show4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2--g3-->Communication4
+35 Show IT -1.7616000000000005
+-->杨幂0--代表作1-->20072--wikiPageRedirects2-->2007年2--g3-->Show4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2--g3-->IT4
+36 Show Communication -1.7616000000000005
+-->杨幂0--代表作1-->20072--wikiPageRedirects2-->2007年2--g3-->Show4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2--g3-->Communication4
+37 IT Communication -1.7616000000000005
+-->杨幂0--网站1-->http://www.yangmi.com/2--subEntity2-->超文本傳輸協議2--g3-->IT4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2--g3-->Communication4
+38 IT Communication -1.7616000000000005
+-->杨幂0--网站1-->http://www.yangmi.com/2--subEntity2-->超文本傳輸協議2--g3-->IT4
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2--g3-->Communication4
+39 女演员 IT -2.4400000000000004
+-->杨幂0--类型1-->女演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+40 女演员 信息技术 -2.4400000000000004
+-->杨幂0--类型1-->女演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+41 女演员 信息技術 -2.4400000000000004
+-->杨幂0--类型1-->女演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+42 女演员 Italy -2.4400000000000004
+-->杨幂0--类型1-->女演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+43 女演员 意大利 -2.4400000000000004
+-->杨幂0--类型1-->女演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+44 女演员 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--类型1-->女演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+45 女演员 意大利行政區劃 -2.4400000000000004
+-->杨幂0--类型1-->女演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+46 女演员 信息技术 -2.4400000000000004
+-->杨幂0--类型1-->女演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+47 女演员 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--类型1-->女演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+48 女演员 zh -2.4400000000000004
+-->杨幂0--类型1-->女演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+49 女演员 子程序 -2.4400000000000004
+-->杨幂0--类型1-->女演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+50 女演员 子程式 -2.4400000000000004
+-->杨幂0--类型1-->女演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+51 女演员 子程序 -2.4400000000000004
+-->杨幂0--类型1-->女演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+52 女演员 現代標準漢語 -2.4400000000000004
+-->杨幂0--类型1-->女演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+53 女演员 Topology, general -2.4400000000000004
+-->杨幂0--类型1-->女演员2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+54 女演员 p/t093200 -2.4400000000000004
+-->杨幂0--类型1-->女演员2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+55 演員 IT -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+56 演員 信息技术 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+57 演員 信息技術 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+58 演員 Italy -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+59 演員 意大利 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+60 演員 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+61 演員 意大利行政區劃 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+62 演員 信息技术 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+63 演員 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+64 演員 zh -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+65 演員 子程序 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+66 演員 子程式 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+67 演員 子程序 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+68 演員 現代標準漢語 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+69 演員 Topology, general -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+70 演員 p/t093200 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+71 演員 IT -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+72 演員 信息技术 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+73 演員 信息技術 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+74 演員 Italy -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+75 演員 意大利 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+76 演員 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+77 演員 意大利行政區劃 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+78 演員 信息技术 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+79 演員 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+80 演員 zh -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+81 演員 子程序 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+82 演員 子程式 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+83 演員 子程序 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+84 演員 現代標準漢語 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+85 演員 Topology, general -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+86 演員 p/t093200 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--wikiPageRedirects2-->演員2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+87 演员 IT -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+88 演员 信息技术 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+89 演员 信息技術 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+90 演员 Italy -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+91 演员 意大利 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+92 演员 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+93 演员 意大利行政區劃 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+94 演员 信息技术 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+95 演员 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+96 演员 zh -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+97 演员 子程序 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+98 演员 子程式 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+99 演员 子程序 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+100 演员 現代標準漢語 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+101 演员 Topology, general -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--subEntity2-->演员2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+102 演员 p/t093200 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--wikiPageRedirects2-->演員2--subEntity2-->演员2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+103 電影演員 IT -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+104 電影演員 信息技术 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+105 電影演員 信息技術 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+106 電影演員 Italy -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+107 電影演員 意大利 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+108 電影演員 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+109 電影演員 意大利行政區劃 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+110 電影演員 信息技术 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+111 電影演員 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+112 電影演員 zh -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+113 電影演員 子程序 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+114 電影演員 子程式 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+115 電影演員 子程序 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+116 電影演員 現代標準漢語 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+117 電影演員 Topology, general -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+118 電影演員 p/t093200 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+119 電影演員 IT -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2--wikiPageRedirects2-->電影演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+120 電影演員 信息技术 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2--wikiPageRedirects2-->電影演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+121 電影演員 信息技術 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2--wikiPageRedirects2-->電影演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+122 電影演員 Italy -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2--wikiPageRedirects2-->電影演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+123 電影演員 意大利 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2--wikiPageRedirects2-->電影演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+124 電影演員 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2--wikiPageRedirects2-->電影演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+125 電影演員 意大利行政區劃 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2--wikiPageRedirects2-->電影演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+126 電影演員 信息技术 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2--wikiPageRedirects2-->電影演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+127 電影演員 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2--wikiPageRedirects2-->電影演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+128 電影演員 zh -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2--wikiPageRedirects2-->電影演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+129 電影演員 子程序 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2--wikiPageRedirects2-->電影演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+130 電影演員 子程式 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2--wikiPageRedirects2-->電影演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+131 電影演員 子程序 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2--wikiPageRedirects2-->電影演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+132 電影演員 現代標準漢語 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2--wikiPageRedirects2-->電影演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+133 電影演員 Topology, general -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2--wikiPageRedirects2-->電影演員2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+134 電影演員 p/t093200 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->電影演員2--wikiPageRedirects2-->電影演員2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+135 演员 IT -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+136 演员 信息技术 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+137 演员 信息技術 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+138 演员 Italy -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+139 演员 意大利 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+140 演员 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+141 演员 意大利行政區劃 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+142 演员 信息技术 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+143 演员 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+144 演员 zh -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+145 演员 子程序 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+146 演员 子程式 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+147 演员 子程序 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+148 演员 現代標準漢語 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演员2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+149 演员 Topology, general -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演员2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+150 演员 p/t093200 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演员2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+151 演員 IT -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+152 演員 信息技术 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+153 演員 信息技術 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+154 演員 Italy -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+155 演員 意大利 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+156 演員 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+157 演員 意大利行政區劃 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+158 演員 信息技术 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演員2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+159 演員 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+160 演員 zh -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+161 演員 子程序 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+162 演員 子程式 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+163 演員 子程序 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+164 演員 現代標準漢語 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演員2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+165 演員 Topology, general -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演員2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+166 演員 p/t093200 -2.4400000000000004
+-->杨幂0--类型1-->女演员2--subEntity2-->演員2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+167 Mini IT -2.4400000000000004
+-->杨幂0--英文名1-->Mini2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+168 Mini 信息技术 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+169 Mini 信息技術 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+170 Mini Italy -2.4400000000000004
+-->杨幂0--英文名1-->Mini2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+171 Mini 意大利 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+172 Mini ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--英文名1-->Mini2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+173 Mini 意大利行政區劃 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+174 Mini 信息技术 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+175 Mini zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--英文名1-->Mini2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+176 Mini zh -2.4400000000000004
+-->杨幂0--英文名1-->Mini2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+177 Mini 子程序 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+178 Mini 子程式 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+179 Mini 子程序 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+180 Mini 現代標準漢語 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+181 Mini Topology, general -2.4400000000000004
+-->杨幂0--英文名1-->Mini2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+182 Mini p/t093200 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+183 迷你 IT -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+184 迷你 信息技术 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+185 迷你 信息技術 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+186 迷你 Italy -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+187 迷你 意大利 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+188 迷你 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+189 迷你 意大利行政區劃 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+190 迷你 信息技术 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+191 迷你 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+192 迷你 zh -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+193 迷你 子程序 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+194 迷你 子程式 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+195 迷你 子程序 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+196 迷你 現代標準漢語 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+197 迷你 Topology, general -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+198 迷你 p/t093200 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+199 迷你汽車 IT -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+200 迷你汽車 信息技术 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+201 迷你汽車 信息技術 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+202 迷你汽車 Italy -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+203 迷你汽車 意大利 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+204 迷你汽車 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+205 迷你汽車 意大利行政區劃 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+206 迷你汽車 信息技术 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+207 迷你汽車 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+208 迷你汽車 zh -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+209 迷你汽車 子程序 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+210 迷你汽車 子程式 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+211 迷你汽車 子程序 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+212 迷你汽車 現代標準漢語 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+213 迷你汽車 Topology, general -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+214 迷你汽車 p/t093200 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+215 迷你 IT -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2--wikiPageRedirects2-->迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+216 迷你 信息技术 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2--wikiPageRedirects2-->迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+217 迷你 信息技術 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2--wikiPageRedirects2-->迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+218 迷你 Italy -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2--wikiPageRedirects2-->迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+219 迷你 意大利 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2--wikiPageRedirects2-->迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+220 迷你 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2--wikiPageRedirects2-->迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+221 迷你 意大利行政區劃 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2--wikiPageRedirects2-->迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+222 迷你 信息技术 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2--wikiPageRedirects2-->迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+223 迷你 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2--wikiPageRedirects2-->迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+224 迷你 zh -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2--wikiPageRedirects2-->迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+225 迷你 子程序 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2--wikiPageRedirects2-->迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+226 迷你 子程式 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2--wikiPageRedirects2-->迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+227 迷你 子程序 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2--wikiPageRedirects2-->迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+228 迷你 現代標準漢語 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2--wikiPageRedirects2-->迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+229 迷你 Topology, general -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2--wikiPageRedirects2-->迷你2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+230 迷你 p/t093200 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->迷你汽車2--wikiPageRedirects2-->迷你2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+231 宝马迷你 IT -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->宝马迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+232 宝马迷你 信息技术 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->宝马迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+233 宝马迷你 信息技術 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->宝马迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+234 宝马迷你 Italy -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->宝马迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+235 宝马迷你 意大利 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->宝马迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+236 宝马迷你 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->宝马迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+237 宝马迷你 意大利行政區劃 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->宝马迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+238 宝马迷你 信息技术 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->宝马迷你2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+239 宝马迷你 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->宝马迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+240 宝马迷你 zh -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->宝马迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+241 宝马迷你 子程序 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->宝马迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+242 宝马迷你 子程式 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->宝马迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+243 宝马迷你 子程序 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->宝马迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+244 宝马迷你 現代標準漢語 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->宝马迷你2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+245 宝马迷你 Topology, general -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->宝马迷你2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+246 宝马迷你 p/t093200 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->宝马迷你2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+247 蔡冕麗 IT -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+248 蔡冕麗 信息技术 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+249 蔡冕麗 信息技術 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+250 蔡冕麗 Italy -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+251 蔡冕麗 意大利 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+252 蔡冕麗 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+253 蔡冕麗 意大利行政區劃 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+254 蔡冕麗 信息技术 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+255 蔡冕麗 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+256 蔡冕麗 zh -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+257 蔡冕麗 子程序 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+258 蔡冕麗 子程式 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+259 蔡冕麗 子程序 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+260 蔡冕麗 現代標準漢語 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+261 蔡冕麗 Topology, general -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+262 蔡冕麗 p/t093200 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+263 蔡冕麗 IT -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2--wikiPageRedirects2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+264 蔡冕麗 信息技术 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2--wikiPageRedirects2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+265 蔡冕麗 信息技術 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2--wikiPageRedirects2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+266 蔡冕麗 Italy -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2--wikiPageRedirects2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+267 蔡冕麗 意大利 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2--wikiPageRedirects2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+268 蔡冕麗 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2--wikiPageRedirects2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+269 蔡冕麗 意大利行政區劃 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2--wikiPageRedirects2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+270 蔡冕麗 信息技术 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2--wikiPageRedirects2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+271 蔡冕麗 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2--wikiPageRedirects2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+272 蔡冕麗 zh -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2--wikiPageRedirects2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+273 蔡冕麗 子程序 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2--wikiPageRedirects2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+274 蔡冕麗 子程式 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2--wikiPageRedirects2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+275 蔡冕麗 子程序 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2--wikiPageRedirects2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+276 蔡冕麗 現代標準漢語 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2--wikiPageRedirects2-->蔡冕麗2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+277 蔡冕麗 Topology, general -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2--wikiPageRedirects2-->蔡冕麗2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+278 蔡冕麗 p/t093200 -2.4400000000000004
+-->杨幂0--英文名1-->Mini2--subEntity2-->蔡冕麗2--wikiPageRedirects2-->蔡冕麗2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+279 1986-09-12 IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122
+-->函数0--subEntity0-->子程序0--g1-->IT2
+280 1986-09-12 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+281 1986-09-12 信息技術 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+282 1986-09-12 Italy -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+283 1986-09-12 意大利 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+284 1986-09-12 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+285 1986-09-12 意大利行政區劃 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+286 1986-09-12 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+287 1986-09-12 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+288 1986-09-12 zh -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+289 1986-09-12 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+290 1986-09-12 子程式 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+291 1986-09-12 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+292 1986-09-12 現代標準漢語 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+293 1986-09-12 Topology, general -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+294 1986-09-12 p/t093200 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+295 1986 IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->19862
+-->函数0--subEntity0-->子程序0--g1-->IT2
+296 1986 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->19862
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+297 1986 信息技術 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->19862
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+298 1986 Italy -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->19862
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+299 1986 意大利 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->19862
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+300 1986 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->19862
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+301 1986 意大利行政區劃 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->19862
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+302 1986 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->19862
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+303 1986 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->19862
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+304 1986 zh -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->19862
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+305 1986 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->19862
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+306 1986 子程式 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->19862
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+307 1986 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->19862
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+308 1986 現代標準漢語 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->19862
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+309 1986 Topology, general -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->19862
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+310 1986 p/t093200 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->19862
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+311 12 IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->122
+-->函数0--subEntity0-->子程序0--g1-->IT2
+312 12 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->122
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+313 12 信息技術 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+314 12 Italy -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+315 12 意大利 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+316 12 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+317 12 意大利行政區劃 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+318 12 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+319 12 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+320 12 zh -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+321 12 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+322 12 子程式 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+323 12 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+324 12 現代標準漢語 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+325 12 Topology, general -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->122
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+326 12 p/t093200 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->122
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+327 1986年世界盃足球賽 IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+328 1986年世界盃足球賽 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+329 1986年世界盃足球賽 信息技術 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+330 1986年世界盃足球賽 Italy -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+331 1986年世界盃足球賽 意大利 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+332 1986年世界盃足球賽 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+333 1986年世界盃足球賽 意大利行政區劃 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+334 1986年世界盃足球賽 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+335 1986年世界盃足球賽 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+336 1986年世界盃足球賽 zh -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+337 1986年世界盃足球賽 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+338 1986年世界盃足球賽 子程式 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+339 1986年世界盃足球賽 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+340 1986年世界盃足球賽 現代標準漢語 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+341 1986年世界盃足球賽 Topology, general -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+342 1986年世界盃足球賽 p/t093200 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+343 1986年世界盃足球賽 IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+344 1986年世界盃足球賽 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+345 1986年世界盃足球賽 信息技術 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+346 1986年世界盃足球賽 Italy -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+347 1986年世界盃足球賽 意大利 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+348 1986年世界盃足球賽 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+349 1986年世界盃足球賽 意大利行政區劃 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+350 1986年世界盃足球賽 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+351 1986年世界盃足球賽 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+352 1986年世界盃足球賽 zh -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+353 1986年世界盃足球賽 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+354 1986年世界盃足球賽 子程式 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+355 1986年世界盃足球賽 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+356 1986年世界盃足球賽 現代標準漢語 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+357 1986年世界盃足球賽 Topology, general -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+358 1986年世界盃足球賽 p/t093200 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界盃足球賽2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+359 1986年世界杯足球赛 IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+360 1986年世界杯足球赛 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+361 1986年世界杯足球赛 信息技術 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+362 1986年世界杯足球赛 Italy -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+363 1986年世界杯足球赛 意大利 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+364 1986年世界杯足球赛 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+365 1986年世界杯足球赛 意大利行政區劃 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+366 1986年世界杯足球赛 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+367 1986年世界杯足球赛 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+368 1986年世界杯足球赛 zh -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+369 1986年世界杯足球赛 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+370 1986年世界杯足球赛 子程式 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+371 1986年世界杯足球赛 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+372 1986年世界杯足球赛 現代標準漢語 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+373 1986年世界杯足球赛 Topology, general -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+374 1986年世界杯足球赛 p/t093200 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+375 1986年世界盃足球賽 IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+376 1986年世界盃足球賽 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+377 1986年世界盃足球賽 信息技術 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+378 1986年世界盃足球賽 Italy -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+379 1986年世界盃足球賽 意大利 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+380 1986年世界盃足球賽 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+381 1986年世界盃足球賽 意大利行政區劃 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+382 1986年世界盃足球賽 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+383 1986年世界盃足球賽 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+384 1986年世界盃足球賽 zh -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+385 1986年世界盃足球賽 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+386 1986年世界盃足球賽 子程式 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+387 1986年世界盃足球賽 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+388 1986年世界盃足球賽 現代標準漢語 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+389 1986年世界盃足球賽 Topology, general -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+390 1986年世界盃足球賽 p/t093200 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年世界杯足球赛2--wikiPageRedirects2-->1986年世界盃足球賽2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+391 1986年电影 IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+392 1986年电影 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+393 1986年电影 信息技術 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+394 1986年电影 Italy -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+395 1986年电影 意大利 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+396 1986年电影 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+397 1986年电影 意大利行政區劃 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+398 1986年电影 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+399 1986年电影 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+400 1986年电影 zh -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+401 1986年电影 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+402 1986年电影 子程式 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+403 1986年电影 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+404 1986年电影 現代標準漢語 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+405 1986年电影 Topology, general -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+406 1986年电影 p/t093200 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+407 1986年电影 IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2--wikiPageRedirects2-->1986年电影2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+408 1986年电影 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2--wikiPageRedirects2-->1986年电影2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+409 1986年电影 信息技術 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2--wikiPageRedirects2-->1986年电影2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+410 1986年电影 Italy -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2--wikiPageRedirects2-->1986年电影2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+411 1986年电影 意大利 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2--wikiPageRedirects2-->1986年电影2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+412 1986年电影 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2--wikiPageRedirects2-->1986年电影2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+413 1986年电影 意大利行政區劃 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2--wikiPageRedirects2-->1986年电影2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+414 1986年电影 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2--wikiPageRedirects2-->1986年电影2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+415 1986年电影 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2--wikiPageRedirects2-->1986年电影2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+416 1986年电影 zh -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2--wikiPageRedirects2-->1986年电影2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+417 1986年电影 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2--wikiPageRedirects2-->1986年电影2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+418 1986年电影 子程式 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2--wikiPageRedirects2-->1986年电影2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+419 1986年电影 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2--wikiPageRedirects2-->1986年电影2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+420 1986年电影 現代標準漢語 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2--wikiPageRedirects2-->1986年电影2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+421 1986年电影 Topology, general -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2--wikiPageRedirects2-->1986年电影2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+422 1986年电影 p/t093200 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->1986年电影2--wikiPageRedirects2-->1986年电影2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+423 2009年世界運動會 IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->2009年世界運動會2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+424 2009年世界運動會 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->2009年世界運動會2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+425 2009年世界運動會 信息技術 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->2009年世界運動會2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+426 2009年世界運動會 Italy -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->2009年世界運動會2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+427 2009年世界運動會 意大利 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->2009年世界運動會2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+428 2009年世界運動會 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->2009年世界運動會2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+429 2009年世界運動會 意大利行政區劃 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->2009年世界運動會2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+430 2009年世界運動會 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->2009年世界運動會2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+431 2009年世界運動會 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->2009年世界運動會2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+432 2009年世界運動會 zh -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->2009年世界運動會2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+433 2009年世界運動會 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->2009年世界運動會2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+434 2009年世界運動會 子程式 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->2009年世界運動會2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+435 2009年世界運動會 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->2009年世界運動會2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+436 2009年世界運動會 現代標準漢語 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->2009年世界運動會2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+437 2009年世界運動會 Topology, general -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->2009年世界運動會2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+438 2009年世界運動會 p/t093200 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->2009年世界運動會2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+439 碳-12 IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->碳-122
+-->函数0--subEntity0-->子程序0--g1-->IT2
+440 碳-12 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->碳-122
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+441 碳-12 信息技術 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->碳-122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+442 碳-12 Italy -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->碳-122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+443 碳-12 意大利 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->碳-122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+444 碳-12 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->碳-122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+445 碳-12 意大利行政區劃 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->碳-122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+446 碳-12 信息技术 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->碳-122
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+447 碳-12 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->碳-122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+448 碳-12 zh -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->碳-122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+449 碳-12 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->碳-122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+450 碳-12 子程式 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->碳-122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+451 碳-12 子程序 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->碳-122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+452 碳-12 現代標準漢語 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->碳-122
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+453 碳-12 Topology, general -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->碳-122
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+454 碳-12 p/t093200 -2.4400000000000004
+-->杨幂0--出生日期1-->1986-09-122--subEntity2-->碳-122
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+455 2468729 IT -2.4400000000000004
+-->杨幂0--imdb1-->24687292
+-->函数0--subEntity0-->子程序0--g1-->IT2
+456 2468729 信息技术 -2.4400000000000004
+-->杨幂0--imdb1-->24687292
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+457 2468729 信息技術 -2.4400000000000004
+-->杨幂0--imdb1-->24687292
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+458 2468729 Italy -2.4400000000000004
+-->杨幂0--imdb1-->24687292
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+459 2468729 意大利 -2.4400000000000004
+-->杨幂0--imdb1-->24687292
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+460 2468729 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--imdb1-->24687292
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+461 2468729 意大利行政區劃 -2.4400000000000004
+-->杨幂0--imdb1-->24687292
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+462 2468729 信息技术 -2.4400000000000004
+-->杨幂0--imdb1-->24687292
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+463 2468729 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--imdb1-->24687292
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+464 2468729 zh -2.4400000000000004
+-->杨幂0--imdb1-->24687292
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+465 2468729 子程序 -2.4400000000000004
+-->杨幂0--imdb1-->24687292
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+466 2468729 子程式 -2.4400000000000004
+-->杨幂0--imdb1-->24687292
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+467 2468729 子程序 -2.4400000000000004
+-->杨幂0--imdb1-->24687292
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+468 2468729 現代標準漢語 -2.4400000000000004
+-->杨幂0--imdb1-->24687292
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+469 2468729 Topology, general -2.4400000000000004
+-->杨幂0--imdb1-->24687292
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+470 2468729 p/t093200 -2.4400000000000004
+-->杨幂0--imdb1-->24687292
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+471 欢瑞世纪（2013－2014） IT -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+472 欢瑞世纪（2013－2014） 信息技术 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+473 欢瑞世纪（2013－2014） 信息技術 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+474 欢瑞世纪（2013－2014） Italy -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+475 欢瑞世纪（2013－2014） 意大利 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+476 欢瑞世纪（2013－2014） ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+477 欢瑞世纪（2013－2014） 意大利行政區劃 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+478 欢瑞世纪（2013－2014） 信息技术 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+479 欢瑞世纪（2013－2014） zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+480 欢瑞世纪（2013－2014） zh -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+481 欢瑞世纪（2013－2014） 子程序 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+482 欢瑞世纪（2013－2014） 子程式 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+483 欢瑞世纪（2013－2014） 子程序 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+484 欢瑞世纪（2013－2014） 現代標準漢語 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+485 欢瑞世纪（2013－2014） Topology, general -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+486 欢瑞世纪（2013－2014） p/t093200 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+487 欢瑞世纪 IT -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->欢瑞世纪2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+488 欢瑞世纪 信息技术 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->欢瑞世纪2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+489 欢瑞世纪 信息技術 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->欢瑞世纪2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+490 欢瑞世纪 Italy -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->欢瑞世纪2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+491 欢瑞世纪 意大利 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->欢瑞世纪2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+492 欢瑞世纪 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->欢瑞世纪2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+493 欢瑞世纪 意大利行政區劃 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->欢瑞世纪2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+494 欢瑞世纪 信息技术 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->欢瑞世纪2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+495 欢瑞世纪 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->欢瑞世纪2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+496 欢瑞世纪 zh -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->欢瑞世纪2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+497 欢瑞世纪 子程序 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->欢瑞世纪2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+498 欢瑞世纪 子程式 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->欢瑞世纪2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+499 欢瑞世纪 子程序 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->欢瑞世纪2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+500 欢瑞世纪 現代標準漢語 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->欢瑞世纪2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+501 欢瑞世纪 Topology, general -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->欢瑞世纪2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+502 欢瑞世纪 p/t093200 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->欢瑞世纪2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+503 2013年－2014年美国电视网节目表 IT -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+504 2013年－2014年美国电视网节目表 信息技术 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+505 2013年－2014年美国电视网节目表 信息技術 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+506 2013年－2014年美国电视网节目表 Italy -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+507 2013年－2014年美国电视网节目表 意大利 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+508 2013年－2014年美国电视网节目表 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+509 2013年－2014年美国电视网节目表 意大利行政區劃 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+510 2013年－2014年美国电视网节目表 信息技术 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+511 2013年－2014年美国电视网节目表 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+512 2013年－2014年美国电视网节目表 zh -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+513 2013年－2014年美国电视网节目表 子程序 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+514 2013年－2014年美国电视网节目表 子程式 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+515 2013年－2014年美国电视网节目表 子程序 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+516 2013年－2014年美国电视网节目表 現代標準漢語 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+517 2013年－2014年美国电视网节目表 Topology, general -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+518 2013年－2014年美国电视网节目表 p/t093200 -2.4400000000000004
+-->杨幂0--经纪公司1-->欢瑞世纪（2013－2014）2--subEntity2-->2013年－2014年美国电视网节目表2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+519 荣信达影视（2003－2009） IT -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+520 荣信达影视（2003－2009） 信息技术 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+521 荣信达影视（2003－2009） 信息技術 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+522 荣信达影视（2003－2009） Italy -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+523 荣信达影视（2003－2009） 意大利 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+524 荣信达影视（2003－2009） ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+525 荣信达影视（2003－2009） 意大利行政區劃 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+526 荣信达影视（2003－2009） 信息技术 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+527 荣信达影视（2003－2009） zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+528 荣信达影视（2003－2009） zh -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+529 荣信达影视（2003－2009） 子程序 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+530 荣信达影视（2003－2009） 子程式 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+531 荣信达影视（2003－2009） 子程序 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+532 荣信达影视（2003－2009） 現代標準漢語 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+533 荣信达影视（2003－2009） Topology, general -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+534 荣信达影视（2003－2009） p/t093200 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+535 荣信达影视 IT -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2--subEntity2-->荣信达影视2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+536 荣信达影视 信息技术 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2--subEntity2-->荣信达影视2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+537 荣信达影视 信息技術 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2--subEntity2-->荣信达影视2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+538 荣信达影视 Italy -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2--subEntity2-->荣信达影视2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+539 荣信达影视 意大利 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2--subEntity2-->荣信达影视2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+540 荣信达影视 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2--subEntity2-->荣信达影视2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+541 荣信达影视 意大利行政區劃 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2--subEntity2-->荣信达影视2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+542 荣信达影视 信息技术 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2--subEntity2-->荣信达影视2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+543 荣信达影视 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2--subEntity2-->荣信达影视2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+544 荣信达影视 zh -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2--subEntity2-->荣信达影视2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+545 荣信达影视 子程序 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2--subEntity2-->荣信达影视2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+546 荣信达影视 子程式 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2--subEntity2-->荣信达影视2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+547 荣信达影视 子程序 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2--subEntity2-->荣信达影视2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+548 荣信达影视 現代標準漢語 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2--subEntity2-->荣信达影视2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+549 荣信达影视 Topology, general -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2--subEntity2-->荣信达影视2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+550 荣信达影视 p/t093200 -2.4400000000000004
+-->杨幂0--经纪公司1-->荣信达影视（2003－2009）2--subEntity2-->荣信达影视2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+551 美亚娱乐（2010－2013） IT -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+552 美亚娱乐（2010－2013） 信息技术 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+553 美亚娱乐（2010－2013） 信息技術 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+554 美亚娱乐（2010－2013） Italy -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+555 美亚娱乐（2010－2013） 意大利 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+556 美亚娱乐（2010－2013） ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+557 美亚娱乐（2010－2013） 意大利行政區劃 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+558 美亚娱乐（2010－2013） 信息技术 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+559 美亚娱乐（2010－2013） zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+560 美亚娱乐（2010－2013） zh -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+561 美亚娱乐（2010－2013） 子程序 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+562 美亚娱乐（2010－2013） 子程式 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+563 美亚娱乐（2010－2013） 子程序 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+564 美亚娱乐（2010－2013） 現代標準漢語 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+565 美亚娱乐（2010－2013） Topology, general -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+566 美亚娱乐（2010－2013） p/t093200 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+567 美亚娱乐 IT -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2--subEntity2-->美亚娱乐2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+568 美亚娱乐 信息技术 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2--subEntity2-->美亚娱乐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+569 美亚娱乐 信息技術 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2--subEntity2-->美亚娱乐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+570 美亚娱乐 Italy -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2--subEntity2-->美亚娱乐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+571 美亚娱乐 意大利 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2--subEntity2-->美亚娱乐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+572 美亚娱乐 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2--subEntity2-->美亚娱乐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+573 美亚娱乐 意大利行政區劃 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2--subEntity2-->美亚娱乐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+574 美亚娱乐 信息技术 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2--subEntity2-->美亚娱乐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+575 美亚娱乐 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2--subEntity2-->美亚娱乐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+576 美亚娱乐 zh -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2--subEntity2-->美亚娱乐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+577 美亚娱乐 子程序 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2--subEntity2-->美亚娱乐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+578 美亚娱乐 子程式 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2--subEntity2-->美亚娱乐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+579 美亚娱乐 子程序 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2--subEntity2-->美亚娱乐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+580 美亚娱乐 現代標準漢語 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2--subEntity2-->美亚娱乐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+581 美亚娱乐 Topology, general -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2--subEntity2-->美亚娱乐2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+582 美亚娱乐 p/t093200 -2.4400000000000004
+-->杨幂0--经纪公司1-->美亚娱乐（2010－2013）2--subEntity2-->美亚娱乐2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+583 嘉行杨幂工作室（2014－） IT -2.4400000000000004
+-->杨幂0--经纪公司1-->嘉行杨幂工作室（2014－）2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+584 嘉行杨幂工作室（2014－） 信息技术 -2.4400000000000004
+-->杨幂0--经纪公司1-->嘉行杨幂工作室（2014－）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+585 嘉行杨幂工作室（2014－） 信息技術 -2.4400000000000004
+-->杨幂0--经纪公司1-->嘉行杨幂工作室（2014－）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+586 嘉行杨幂工作室（2014－） Italy -2.4400000000000004
+-->杨幂0--经纪公司1-->嘉行杨幂工作室（2014－）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+587 嘉行杨幂工作室（2014－） 意大利 -2.4400000000000004
+-->杨幂0--经纪公司1-->嘉行杨幂工作室（2014－）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+588 嘉行杨幂工作室（2014－） ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--经纪公司1-->嘉行杨幂工作室（2014－）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+589 嘉行杨幂工作室（2014－） 意大利行政區劃 -2.4400000000000004
+-->杨幂0--经纪公司1-->嘉行杨幂工作室（2014－）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+590 嘉行杨幂工作室（2014－） 信息技术 -2.4400000000000004
+-->杨幂0--经纪公司1-->嘉行杨幂工作室（2014－）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+591 嘉行杨幂工作室（2014－） zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--经纪公司1-->嘉行杨幂工作室（2014－）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+592 嘉行杨幂工作室（2014－） zh -2.4400000000000004
+-->杨幂0--经纪公司1-->嘉行杨幂工作室（2014－）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+593 嘉行杨幂工作室（2014－） 子程序 -2.4400000000000004
+-->杨幂0--经纪公司1-->嘉行杨幂工作室（2014－）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+594 嘉行杨幂工作室（2014－） 子程式 -2.4400000000000004
+-->杨幂0--经纪公司1-->嘉行杨幂工作室（2014－）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+595 嘉行杨幂工作室（2014－） 子程序 -2.4400000000000004
+-->杨幂0--经纪公司1-->嘉行杨幂工作室（2014－）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+596 嘉行杨幂工作室（2014－） 現代標準漢語 -2.4400000000000004
+-->杨幂0--经纪公司1-->嘉行杨幂工作室（2014－）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+597 嘉行杨幂工作室（2014－） Topology, general -2.4400000000000004
+-->杨幂0--经纪公司1-->嘉行杨幂工作室（2014－）2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+598 嘉行杨幂工作室（2014－） p/t093200 -2.4400000000000004
+-->杨幂0--经纪公司1-->嘉行杨幂工作室（2014－）2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+599 現代標準漢語 IT -2.4400000000000004
+-->杨幂0--语言1-->現代標準漢語2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+600 現代標準漢語 信息技术 -2.4400000000000004
+-->杨幂0--语言1-->現代標準漢語2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+601 現代標準漢語 信息技術 -2.4400000000000004
+-->杨幂0--语言1-->現代標準漢語2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+602 現代標準漢語 Italy -2.4400000000000004
+-->杨幂0--语言1-->現代標準漢語2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+603 現代標準漢語 意大利 -2.4400000000000004
+-->杨幂0--语言1-->現代標準漢語2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+604 現代標準漢語 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--语言1-->現代標準漢語2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+605 現代標準漢語 意大利行政區劃 -2.4400000000000004
+-->杨幂0--语言1-->現代標準漢語2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+606 現代標準漢語 信息技术 -2.4400000000000004
+-->杨幂0--语言1-->現代標準漢語2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+607 現代標準漢語 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--语言1-->現代標準漢語2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+608 現代標準漢語 zh -2.4400000000000004
+-->杨幂0--语言1-->現代標準漢語2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+609 現代標準漢語 子程序 -2.4400000000000004
+-->杨幂0--语言1-->現代標準漢語2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+610 現代標準漢語 子程式 -2.4400000000000004
+-->杨幂0--语言1-->現代標準漢語2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+611 現代標準漢語 子程序 -2.4400000000000004
+-->杨幂0--语言1-->現代標準漢語2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+612 現代標準漢語 Topology, general -2.4400000000000004
+-->杨幂0--语言1-->現代標準漢語2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+613 現代標準漢語 p/t093200 -2.4400000000000004
+-->杨幂0--语言1-->現代標準漢語2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+614 汉语 IT -2.4400000000000004
+-->杨幂0--语言1-->汉语2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+615 汉语 信息技术 -2.4400000000000004
+-->杨幂0--语言1-->汉语2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+616 汉语 信息技術 -2.4400000000000004
+-->杨幂0--语言1-->汉语2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+617 汉语 Italy -2.4400000000000004
+-->杨幂0--语言1-->汉语2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+618 汉语 意大利 -2.4400000000000004
+-->杨幂0--语言1-->汉语2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+619 汉语 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--语言1-->汉语2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+620 汉语 意大利行政區劃 -2.4400000000000004
+-->杨幂0--语言1-->汉语2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+621 汉语 信息技术 -2.4400000000000004
+-->杨幂0--语言1-->汉语2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+622 汉语 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--语言1-->汉语2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+623 汉语 zh -2.4400000000000004
+-->杨幂0--语言1-->汉语2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+624 汉语 子程序 -2.4400000000000004
+-->杨幂0--语言1-->汉语2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+625 汉语 子程式 -2.4400000000000004
+-->杨幂0--语言1-->汉语2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+626 汉语 子程序 -2.4400000000000004
+-->杨幂0--语言1-->汉语2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+627 汉语 現代標準漢語 -2.4400000000000004
+-->杨幂0--语言1-->汉语2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+628 汉语 Topology, general -2.4400000000000004
+-->杨幂0--语言1-->汉语2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+629 汉语 p/t093200 -2.4400000000000004
+-->杨幂0--语言1-->汉语2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+630 北京话 IT -2.4400000000000004
+-->杨幂0--语言1-->北京话2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+631 北京话 信息技术 -2.4400000000000004
+-->杨幂0--语言1-->北京话2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+632 北京话 信息技術 -2.4400000000000004
+-->杨幂0--语言1-->北京话2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+633 北京话 Italy -2.4400000000000004
+-->杨幂0--语言1-->北京话2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+634 北京话 意大利 -2.4400000000000004
+-->杨幂0--语言1-->北京话2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+635 北京话 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--语言1-->北京话2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+636 北京话 意大利行政區劃 -2.4400000000000004
+-->杨幂0--语言1-->北京话2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+637 北京话 信息技术 -2.4400000000000004
+-->杨幂0--语言1-->北京话2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+638 北京话 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--语言1-->北京话2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+639 北京话 zh -2.4400000000000004
+-->杨幂0--语言1-->北京话2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+640 北京话 子程序 -2.4400000000000004
+-->杨幂0--语言1-->北京话2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+641 北京话 子程式 -2.4400000000000004
+-->杨幂0--语言1-->北京话2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+642 北京话 子程序 -2.4400000000000004
+-->杨幂0--语言1-->北京话2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+643 北京话 現代標準漢語 -2.4400000000000004
+-->杨幂0--语言1-->北京话2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+644 北京话 Topology, general -2.4400000000000004
+-->杨幂0--语言1-->北京话2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+645 北京话 p/t093200 -2.4400000000000004
+-->杨幂0--语言1-->北京话2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+646 小糯米（歲） IT -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+647 小糯米（歲） 信息技术 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+648 小糯米（歲） 信息技術 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+649 小糯米（歲） Italy -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+650 小糯米（歲） 意大利 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+651 小糯米（歲） ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+652 小糯米（歲） 意大利行政區劃 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+653 小糯米（歲） 信息技术 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+654 小糯米（歲） zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+655 小糯米（歲） zh -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+656 小糯米（歲） 子程序 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+657 小糯米（歲） 子程式 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+658 小糯米（歲） 子程序 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+659 小糯米（歲） 現代標準漢語 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+660 小糯米（歲） Topology, general -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+661 小糯米（歲） p/t093200 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+662 虚岁 IT -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+663 虚岁 信息技术 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+664 虚岁 信息技術 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+665 虚岁 Italy -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+666 虚岁 意大利 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+667 虚岁 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+668 虚岁 意大利行政區劃 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+669 虚岁 信息技术 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+670 虚岁 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+671 虚岁 zh -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+672 虚岁 子程序 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+673 虚岁 子程式 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+674 虚岁 子程序 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+675 虚岁 現代標準漢語 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+676 虚岁 Topology, general -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+677 虚岁 p/t093200 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+678 虚岁 IT -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2--wikiPageRedirects2-->虚岁2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+679 虚岁 信息技术 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2--wikiPageRedirects2-->虚岁2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+680 虚岁 信息技術 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2--wikiPageRedirects2-->虚岁2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+681 虚岁 Italy -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2--wikiPageRedirects2-->虚岁2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+682 虚岁 意大利 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2--wikiPageRedirects2-->虚岁2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+683 虚岁 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2--wikiPageRedirects2-->虚岁2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+684 虚岁 意大利行政區劃 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2--wikiPageRedirects2-->虚岁2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+685 虚岁 信息技术 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2--wikiPageRedirects2-->虚岁2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+686 虚岁 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2--wikiPageRedirects2-->虚岁2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+687 虚岁 zh -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2--wikiPageRedirects2-->虚岁2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+688 虚岁 子程序 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2--wikiPageRedirects2-->虚岁2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+689 虚岁 子程式 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2--wikiPageRedirects2-->虚岁2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+690 虚岁 子程序 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2--wikiPageRedirects2-->虚岁2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+691 虚岁 現代標準漢語 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2--wikiPageRedirects2-->虚岁2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+692 虚岁 Topology, general -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2--wikiPageRedirects2-->虚岁2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+693 虚岁 p/t093200 -2.4400000000000004
+-->杨幂0--子女1-->小糯米（歲）2--subEntity2-->虚岁2--wikiPageRedirects2-->虚岁2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+694 2002 IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022
+-->函数0--subEntity0-->子程序0--g1-->IT2
+695 2002 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+696 2002 信息技術 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+697 2002 Italy -2.4400000000000004
+-->杨幂0--活跃年代1-->20022
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+698 2002 意大利 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+699 2002 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+700 2002 意大利行政區劃 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+701 2002 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+702 2002 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--活跃年代1-->20022
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+703 2002 zh -2.4400000000000004
+-->杨幂0--活跃年代1-->20022
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+704 2002 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+705 2002 子程式 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+706 2002 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+707 2002 現代標準漢語 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+708 2002 Topology, general -2.4400000000000004
+-->杨幂0--活跃年代1-->20022
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+709 2002 p/t093200 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+710 2002年 IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+711 2002年 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+712 2002年 信息技術 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+713 2002年 Italy -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+714 2002年 意大利 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+715 2002年 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+716 2002年 意大利行政區劃 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+717 2002年 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+718 2002年 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+719 2002年 zh -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+720 2002年 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+721 2002年 子程式 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+722 2002年 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+723 2002年 現代標準漢語 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+724 2002年 Topology, general -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+725 2002年 p/t093200 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+726 2002年世界杯足球赛 IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+727 2002年世界杯足球赛 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+728 2002年世界杯足球赛 信息技術 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+729 2002年世界杯足球赛 Italy -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+730 2002年世界杯足球赛 意大利 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+731 2002年世界杯足球赛 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+732 2002年世界杯足球赛 意大利行政區劃 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+733 2002年世界杯足球赛 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+734 2002年世界杯足球赛 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+735 2002年世界杯足球赛 zh -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+736 2002年世界杯足球赛 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+737 2002年世界杯足球赛 子程式 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+738 2002年世界杯足球赛 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+739 2002年世界杯足球赛 現代標準漢語 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+740 2002年世界杯足球赛 Topology, general -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+741 2002年世界杯足球赛 p/t093200 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+742 2002年世界盃足球賽 IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+743 2002年世界盃足球賽 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+744 2002年世界盃足球賽 信息技術 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+745 2002年世界盃足球賽 Italy -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+746 2002年世界盃足球賽 意大利 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+747 2002年世界盃足球賽 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+748 2002年世界盃足球賽 意大利行政區劃 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+749 2002年世界盃足球賽 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+750 2002年世界盃足球賽 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+751 2002年世界盃足球賽 zh -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+752 2002年世界盃足球賽 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+753 2002年世界盃足球賽 子程式 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+754 2002年世界盃足球賽 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+755 2002年世界盃足球賽 現代標準漢語 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+756 2002年世界盃足球賽 Topology, general -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+757 2002年世界盃足球賽 p/t093200 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+758 2002年冬季奥林匹克运动会 IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+759 2002年冬季奥林匹克运动会 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+760 2002年冬季奥林匹克运动会 信息技術 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+761 2002年冬季奥林匹克运动会 Italy -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+762 2002年冬季奥林匹克运动会 意大利 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+763 2002年冬季奥林匹克运动会 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+764 2002年冬季奥林匹克运动会 意大利行政區劃 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+765 2002年冬季奥林匹克运动会 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+766 2002年冬季奥林匹克运动会 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+767 2002年冬季奥林匹克运动会 zh -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+768 2002年冬季奥林匹克运动会 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+769 2002年冬季奥林匹克运动会 子程式 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+770 2002年冬季奥林匹克运动会 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+771 2002年冬季奥林匹克运动会 現代標準漢語 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+772 2002年冬季奥林匹克运动会 Topology, general -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+773 2002年冬季奥林匹克运动会 p/t093200 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--wikiPageRedirects2-->2002年2--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+774 2002年世界杯足球赛 IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+775 2002年世界杯足球赛 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+776 2002年世界杯足球赛 信息技術 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+777 2002年世界杯足球赛 Italy -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+778 2002年世界杯足球赛 意大利 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+779 2002年世界杯足球赛 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+780 2002年世界杯足球赛 意大利行政區劃 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+781 2002年世界杯足球赛 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+782 2002年世界杯足球赛 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+783 2002年世界杯足球赛 zh -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+784 2002年世界杯足球赛 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+785 2002年世界杯足球赛 子程式 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+786 2002年世界杯足球赛 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+787 2002年世界杯足球赛 現代標準漢語 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+788 2002年世界杯足球赛 Topology, general -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+789 2002年世界杯足球赛 p/t093200 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+790 2002年世界盃足球賽 IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+791 2002年世界盃足球賽 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+792 2002年世界盃足球賽 信息技術 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+793 2002年世界盃足球賽 Italy -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+794 2002年世界盃足球賽 意大利 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+795 2002年世界盃足球賽 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+796 2002年世界盃足球賽 意大利行政區劃 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+797 2002年世界盃足球賽 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+798 2002年世界盃足球賽 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+799 2002年世界盃足球賽 zh -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+800 2002年世界盃足球賽 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+801 2002年世界盃足球賽 子程式 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+802 2002年世界盃足球賽 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+803 2002年世界盃足球賽 現代標準漢語 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+804 2002年世界盃足球賽 Topology, general -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+805 2002年世界盃足球賽 p/t093200 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界杯足球赛2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+806 2002年世界盃足球賽 IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+807 2002年世界盃足球賽 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+808 2002年世界盃足球賽 信息技術 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+809 2002年世界盃足球賽 Italy -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+810 2002年世界盃足球賽 意大利 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+811 2002年世界盃足球賽 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+812 2002年世界盃足球賽 意大利行政區劃 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+813 2002年世界盃足球賽 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+814 2002年世界盃足球賽 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+815 2002年世界盃足球賽 zh -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+816 2002年世界盃足球賽 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+817 2002年世界盃足球賽 子程式 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+818 2002年世界盃足球賽 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+819 2002年世界盃足球賽 現代標準漢語 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+820 2002年世界盃足球賽 Topology, general -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+821 2002年世界盃足球賽 p/t093200 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+822 2002年世界盃足球賽 IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+823 2002年世界盃足球賽 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+824 2002年世界盃足球賽 信息技術 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+825 2002年世界盃足球賽 Italy -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+826 2002年世界盃足球賽 意大利 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+827 2002年世界盃足球賽 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+828 2002年世界盃足球賽 意大利行政區劃 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+829 2002年世界盃足球賽 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+830 2002年世界盃足球賽 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+831 2002年世界盃足球賽 zh -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+832 2002年世界盃足球賽 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+833 2002年世界盃足球賽 子程式 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+834 2002年世界盃足球賽 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+835 2002年世界盃足球賽 現代標準漢語 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+836 2002年世界盃足球賽 Topology, general -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+837 2002年世界盃足球賽 p/t093200 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年世界盃足球賽2--wikiPageRedirects2-->2002年世界盃足球賽2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+838 2002年冬季奥林匹克运动会 IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+839 2002年冬季奥林匹克运动会 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+840 2002年冬季奥林匹克运动会 信息技術 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+841 2002年冬季奥林匹克运动会 Italy -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+842 2002年冬季奥林匹克运动会 意大利 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+843 2002年冬季奥林匹克运动会 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+844 2002年冬季奥林匹克运动会 意大利行政區劃 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+845 2002年冬季奥林匹克运动会 信息技术 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+846 2002年冬季奥林匹克运动会 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+847 2002年冬季奥林匹克运动会 zh -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+848 2002年冬季奥林匹克运动会 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+849 2002年冬季奥林匹克运动会 子程式 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+850 2002年冬季奥林匹克运动会 子程序 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+851 2002年冬季奥林匹克运动会 現代標準漢語 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+852 2002年冬季奥林匹克运动会 Topology, general -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+853 2002年冬季奥林匹克运动会 p/t093200 -2.4400000000000004
+-->杨幂0--活跃年代1-->20022--subEntity2-->2002年冬季奥林匹克运动会2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+854 大幂幂，小幂，幂姐，狐狸，紫曦 IT -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+855 大幂幂，小幂，幂姐，狐狸，紫曦 信息技术 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+856 大幂幂，小幂，幂姐，狐狸，紫曦 信息技術 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+857 大幂幂，小幂，幂姐，狐狸，紫曦 Italy -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+858 大幂幂，小幂，幂姐，狐狸，紫曦 意大利 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+859 大幂幂，小幂，幂姐，狐狸，紫曦 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+860 大幂幂，小幂，幂姐，狐狸，紫曦 意大利行政區劃 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+861 大幂幂，小幂，幂姐，狐狸，紫曦 信息技术 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+862 大幂幂，小幂，幂姐，狐狸，紫曦 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+863 大幂幂，小幂，幂姐，狐狸，紫曦 zh -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+864 大幂幂，小幂，幂姐，狐狸，紫曦 子程序 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+865 大幂幂，小幂，幂姐，狐狸，紫曦 子程式 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+866 大幂幂，小幂，幂姐，狐狸，紫曦 子程序 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+867 大幂幂，小幂，幂姐，狐狸，紫曦 現代標準漢語 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+868 大幂幂，小幂，幂姐，狐狸，紫曦 Topology, general -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+869 大幂幂，小幂，幂姐，狐狸，紫曦 p/t093200 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+870 狐狸 IT -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+871 狐狸 信息技术 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+872 狐狸 信息技術 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+873 狐狸 Italy -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+874 狐狸 意大利 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+875 狐狸 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+876 狐狸 意大利行政區劃 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+877 狐狸 信息技术 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+878 狐狸 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+879 狐狸 zh -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+880 狐狸 子程序 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+881 狐狸 子程式 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+882 狐狸 子程序 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+883 狐狸 現代標準漢語 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+884 狐狸 Topology, general -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+885 狐狸 p/t093200 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+886 狐 IT -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2--wikiPageRedirects2-->狐2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+887 狐 信息技术 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2--wikiPageRedirects2-->狐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+888 狐 信息技術 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2--wikiPageRedirects2-->狐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+889 狐 Italy -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2--wikiPageRedirects2-->狐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+890 狐 意大利 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2--wikiPageRedirects2-->狐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+891 狐 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2--wikiPageRedirects2-->狐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+892 狐 意大利行政區劃 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2--wikiPageRedirects2-->狐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+893 狐 信息技术 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2--wikiPageRedirects2-->狐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+894 狐 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2--wikiPageRedirects2-->狐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+895 狐 zh -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2--wikiPageRedirects2-->狐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+896 狐 子程序 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2--wikiPageRedirects2-->狐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+897 狐 子程式 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2--wikiPageRedirects2-->狐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+898 狐 子程序 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2--wikiPageRedirects2-->狐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+899 狐 現代標準漢語 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2--wikiPageRedirects2-->狐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+900 狐 Topology, general -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2--wikiPageRedirects2-->狐2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+901 狐 p/t093200 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸2--wikiPageRedirects2-->狐2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+902 赤狐 IT -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->赤狐2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+903 赤狐 信息技术 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->赤狐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+904 赤狐 信息技術 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->赤狐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+905 赤狐 Italy -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->赤狐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+906 赤狐 意大利 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->赤狐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+907 赤狐 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->赤狐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+908 赤狐 意大利行政區劃 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->赤狐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+909 赤狐 信息技术 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->赤狐2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+910 赤狐 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->赤狐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+911 赤狐 zh -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->赤狐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+912 赤狐 子程序 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->赤狐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+913 赤狐 子程式 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->赤狐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+914 赤狐 子程序 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->赤狐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+915 赤狐 現代標準漢語 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->赤狐2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+916 赤狐 Topology, general -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->赤狐2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+917 赤狐 p/t093200 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->赤狐2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+918 狐狸 (歌曲) IT -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸 (歌曲)2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+919 狐狸 (歌曲) 信息技术 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸 (歌曲)2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+920 狐狸 (歌曲) 信息技術 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸 (歌曲)2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+921 狐狸 (歌曲) Italy -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸 (歌曲)2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+922 狐狸 (歌曲) 意大利 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸 (歌曲)2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+923 狐狸 (歌曲) ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸 (歌曲)2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+924 狐狸 (歌曲) 意大利行政區劃 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸 (歌曲)2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+925 狐狸 (歌曲) 信息技术 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸 (歌曲)2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+926 狐狸 (歌曲) zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸 (歌曲)2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+927 狐狸 (歌曲) zh -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸 (歌曲)2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+928 狐狸 (歌曲) 子程序 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸 (歌曲)2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+929 狐狸 (歌曲) 子程式 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸 (歌曲)2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+930 狐狸 (歌曲) 子程序 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸 (歌曲)2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+931 狐狸 (歌曲) 現代標準漢語 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸 (歌曲)2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+932 狐狸 (歌曲) Topology, general -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸 (歌曲)2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+933 狐狸 (歌曲) p/t093200 -2.4400000000000004
+-->杨幂0--昵称1-->大幂幂，小幂，幂姐，狐狸，紫曦2--subEntity2-->狐狸 (歌曲)2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+934 少城时代（2011－） IT -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+935 少城时代（2011－） 信息技术 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+936 少城时代（2011－） 信息技術 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+937 少城时代（2011－） Italy -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+938 少城时代（2011－） 意大利 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+939 少城时代（2011－） ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+940 少城时代（2011－） 意大利行政區劃 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+941 少城时代（2011－） 信息技术 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+942 少城时代（2011－） zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+943 少城时代（2011－） zh -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+944 少城时代（2011－） 子程序 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+945 少城时代（2011－） 子程式 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+946 少城时代（2011－） 子程序 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+947 少城时代（2011－） 現代標準漢語 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+948 少城时代（2011－） Topology, general -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+949 少城时代（2011－） p/t093200 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+950 少城时代 IT -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城时代2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+951 少城时代 信息技术 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城时代2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+952 少城时代 信息技術 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城时代2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+953 少城时代 Italy -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城时代2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+954 少城时代 意大利 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城时代2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+955 少城时代 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城时代2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+956 少城时代 意大利行政區劃 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城时代2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+957 少城时代 信息技术 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城时代2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+958 少城时代 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城时代2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+959 少城时代 zh -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城时代2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+960 少城时代 子程序 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城时代2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+961 少城时代 子程式 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城时代2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+962 少城时代 子程序 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城时代2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+963 少城时代 現代標準漢語 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城时代2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+964 少城时代 Topology, general -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城时代2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+965 少城时代 p/t093200 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城时代2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+966 少城時代 IT -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城時代2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+967 少城時代 信息技术 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城時代2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+968 少城時代 信息技術 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城時代2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+969 少城時代 Italy -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城時代2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+970 少城時代 意大利 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城時代2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+971 少城時代 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城時代2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+972 少城時代 意大利行政區劃 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城時代2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+973 少城時代 信息技术 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城時代2
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+974 少城時代 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城時代2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+975 少城時代 zh -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城時代2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+976 少城時代 子程序 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城時代2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+977 少城時代 子程式 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城時代2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+978 少城時代 子程序 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城時代2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+979 少城時代 現代標準漢語 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城時代2
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+980 少城時代 Topology, general -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城時代2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+981 少城時代 p/t093200 -2.4400000000000004
+-->杨幂0--唱片公司1-->少城时代（2011－）2--subEntity2-->少城時代2
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+982 2009 IT -2.4400000000000004
+-->杨幂0--代表作1-->20092
+-->函数0--subEntity0-->子程序0--g1-->IT2
+983 2009 信息技术 -2.4400000000000004
+-->杨幂0--代表作1-->20092
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2
+984 2009 信息技術 -2.4400000000000004
+-->杨幂0--代表作1-->20092
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技術2
+985 2009 Italy -2.4400000000000004
+-->杨幂0--代表作1-->20092
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2
+986 2009 意大利 -2.4400000000000004
+-->杨幂0--代表作1-->20092
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->Italy2--wikiPageRedirects2-->意大利2
+987 2009 ISO 3166-2:IT -2.4400000000000004
+-->杨幂0--代表作1-->20092
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2
+988 2009 意大利行政區劃 -2.4400000000000004
+-->杨幂0--代表作1-->20092
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->ISO 3166-2:IT2--wikiPageRedirects2-->意大利行政區劃2
+989 2009 信息技术 -2.4400000000000004
+-->杨幂0--代表作1-->20092
+-->函数0--subEntity0-->子程序0--g1-->IT2--subEntity2-->信息技术2
+990 2009 zh-hans:子程序; zh-hant:子程式; -2.4400000000000004
+-->杨幂0--代表作1-->20092
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2
+991 2009 zh -2.4400000000000004
+-->杨幂0--代表作1-->20092
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->zh2
+992 2009 子程序 -2.4400000000000004
+-->杨幂0--代表作1-->20092
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程序2
+993 2009 子程式 -2.4400000000000004
+-->杨幂0--代表作1-->20092
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2
+994 2009 子程序 -2.4400000000000004
+-->杨幂0--代表作1-->20092
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->子程式2--wikiPageRedirects2-->子程序2
+995 2009 現代標準漢語 -2.4400000000000004
+-->杨幂0--代表作1-->20092
+-->函数0--subEntity0-->子程序0--tsymb1-->zh-hans:子程序; zh-hant:子程式;2--subEntity2-->現代標準漢語2
+996 2009 Topology, general -2.4400000000000004
+-->杨幂0--代表作1-->20092
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--title头衔1-->Topology, general2
+997 2009 p/t093200 -2.4400000000000004
+-->杨幂0--代表作1-->20092
+-->函数0--subEntity0-->连续函数 (拓扑学)0--wikiPageRedirects0-->連續函數_(拓撲學)0--subEntity0-->拓扑学0--id遗传素质1-->p/t0932002
+998 2009年 IT -2.4400000000000004
+-->杨幂0--代表作1-->20092--wikiPageRedirects2-->2009年2
+-->函数0--subEntity0-->子程序0--g1-->IT2
+999 2009年 信息技术 -2.4400000000000004
+-->杨幂0--代表作1-->20092--wikiPageRedirects2-->2009年2
+-->函数0--subEntity0-->子程序0--g1-->IT2--wikiPageRedirects2-->信息技术2

@@ -315,7 +315,7 @@ def test4():
 
 def test5():
   gm = GraphMatcher()
-  for x,y in [('主席', '首领'), ('前进', '行进'), ('杀戮','刺杀'),  ('皇帝', '皇上'), ('晴天', '晴朗'), ('傻瓜', '笨蛋'), ('学习','进修'), ('得意', '骄傲'), ('环境', '杯子'), ('丑八怪', '小吃'), ('无所谓', '抽纸'), ('书本', '吃饭'), ('强制', '哈气'), ('宝贝', '革命'), ('睡觉', '宇宙飞船'), ('宜家','字符'), ('宜家', '挑战')]:
+  for x,y in [('主席', '首领'), ('前进', '行进'), ('杀戮','刺杀'),  ('皇帝', '皇上'), ('晴天', '晴朗'), ('傻瓜', '笨蛋'), ('学习','进修'), ('得意', '骄傲'), ('启动', '关闭'), ('诞生','死亡'), ('光明','黑暗'), ('起始','结束'), ('环境', '杯子'), ('丑八怪', '小吃'), ('无所谓', '抽纸'), ('书本', '吃饭'), ('强制', '哈气'), ('宝贝', '革命'), ('睡觉', '宇宙飞船'), ('宜家','字符'), ('宜家', '挑战')]:
     sc = gm.getW2VSimilarity(x,y)
     grid = 60
     pro = int((sc+1)/2.0*grid)
@@ -379,12 +379,12 @@ def test8():
 def test9():
   gm = GraphMatcher()
   entity_morph=[('薄熙来', '平西王'), ('毛泽东', '太祖'), ('陈光诚', '盲人'), ('王立军','西南王警官'),('德文·韦德', '闪电侠'), ('金正恩', '金胖子'), ('蒋介石', '常公公'), ('杨幂','函数')]
-  index = 1
+  index = 7
   for em in [entity_morph[index]]:
     graph_list = [GraphBuilder(x).getGraph() for x in em]
     #[print(graph) for graph in graph_list]
     score_list = gm.cachedComputeBiGraphScore(*graph_list)
-    for score, n in zip(score_list, range(100)):
+    for score, n in zip(score_list, range(1000)):
       (n1, n2), v = score
       print(n, n1.name, n2.name, v)
       print(n1.getHistoryText())
@@ -393,4 +393,4 @@ def test9():
 
 
 if __name__ == '__main__':
-  test8()
+  test9()

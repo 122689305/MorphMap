@@ -243,7 +243,7 @@ def test5():
   #print(mb)
 
 def test6():
-  mb = GraphBuilder('李自成')
+  mb = GraphBuilder('杨幂')
   #mb.doElementOneHop(mb.root)
   mb.getGraph()
   print(mb)
@@ -272,5 +272,5 @@ def test9():
   mb.getOneHop('6500000')
 
 if __name__ == '__main__':
-  test7()
+  test6()
   #test9()
